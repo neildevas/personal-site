@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Pass the AUX",
+    "backgroundColor": "black",
+    "textColor": "white",
+    "image": "../images/pass-the-aux-logo.png"
+  }, {
+    "title": "Keyo Apartments",
+    "backgroundColor": "#007AFF",
+    "textColor": "white",
+    "image": "../images/keyo-logo.png"
+  }, {
+    "title": "Keyo Partners",
+    "backgroundColor": "#1B1B1D",
+    "textColor": "white",
+    "image": "../images/keyo-logo.png"
+  }, {
+    "title": "SuperAgent LIVE",
+    "backgroundColor": "white",
+    "textColor": "black",
+    "image": "../images/keyo-logo.png"
+  }, {
+    "title": "neildev.as",
+    "backgroundColor": "#004276",
+    "textColor": "white"
+  }
+]
