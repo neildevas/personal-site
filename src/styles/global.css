@@ -7,4 +7,10 @@
     .heading-1 {
         @apply text-center md:text-left font-bold text-4xl text-gray-800 md:text-5xl
     }
+    .section-header {
+        @apply max-w-prose sm:flex sm:flex-col sm:justify-center px-8
+    }
+    .subheading {
+        @apply text-center md:text-left mt-4
+    }
 }

@@ -1,9 +1,10 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-import HeroSection from "./HeroSection"
+import HeroSection from "../sections/HeroSection"
 import Header from "./header"
-import About from './About'
+import About from '../sections/About'
+import Employment from "../sections/Employment"
 import "./layout.css"
 
 const Layout = ({ children }) => {
@@ -23,6 +24,7 @@ const Layout = ({ children }) => {
       <div class={'mx-auto max-w-6xl px-2'}>
         <HeroSection/>
         <About/>
+        <Employment/>
         <main>{children}</main>
       </div>
     </div>
