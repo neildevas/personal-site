@@ -3,7 +3,8 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 import HeroSection from "./HeroSection"
 import Header from "./header"
-// import "./layout.css"
+import About from './About'
+import "./layout.css"
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -17,10 +18,11 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div class="bg-gray-100">
+    <div>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div class={'mx-auto max-w-full lg:max-w-4xl pt-0 px-2'}>
+      <div class={'mx-auto max-w-6xl px-2'}>
         <HeroSection/>
+        <About/>
         <main>{children}</main>
       </div>
     </div>

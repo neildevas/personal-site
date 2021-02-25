@@ -31,23 +31,23 @@ const IndexPage = () => {
   const projects = data.allProjectsJson.edges;
   return (
     <Layout>
-      {projects.map(({ node: project }) => {
-        const title = project.title;
-        const backgroundColor = project.backgroundColor;
-        const textColor = project.textColor;
-        const slug = project.slug;
-        const imageData = project.image?.childImageSharp.fluid;
+      {/*{projects.map(({ node: project }) => {*/}
+      {/*  const title = project.title;*/}
+      {/*  const backgroundColor = project.backgroundColor;*/}
+      {/*  const textColor = project.textColor;*/}
+      {/*  const slug = project.slug;*/}
+      {/*  const imageData = project.image?.childImageSharp.fluid;*/}
 
-        return (
-          <ProjectPreview
-            title={title}
-            backgroundColor={backgroundColor}
-            textColor={textColor}
-            slug={slug}
-            imageData={imageData}
-          />
-        )
-      })}
+      {/*  return (*/}
+      {/*    <ProjectPreview*/}
+      {/*      title={title}*/}
+      {/*      backgroundColor={backgroundColor}*/}
+      {/*      textColor={textColor}*/}
+      {/*      slug={slug}*/}
+      {/*      imageData={imageData}*/}
+      {/*    />*/}
+      {/*  )*/}
+      {/*})}*/}
     </Layout>
   )
 }
