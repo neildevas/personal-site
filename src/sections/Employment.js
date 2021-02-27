@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "../components/image"
+import Image from "../components/HeroImage"
 import Img from "gatsby-image"
 import WorkExperiences from "../components/WorkExperiences"
 import Spacer from "../components/Spacer"
@@ -25,7 +25,7 @@ const Employment = () => {
     <div>
       <div className={'w-full max-w-6xl mx-auto'}>
         <div className={'section-header'}>
-          <h1 className={'heading-1 text-3xl md:text-4xl'}>Experiences</h1>
+          <h2>Experiences</h2>
           <p className={'subheading'}>via this cool timeline thing</p>
 
         </div>

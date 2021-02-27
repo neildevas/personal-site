@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, Link, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
+import Image from "../components/HeroImage"
 import SEO from "../components/seo"
 import ProjectPreview from "../components/projectPreview"
 

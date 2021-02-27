@@ -21,9 +21,10 @@ const WorkExperiences = () => {
   return (
     <div className="w-full py-12 mx-auto flex flex-col items-center">
       <Experience {...data.experiences.nodes[selectedExperienceIndex]} />
-      <div className={'mt-4'}>
+      <div className={'mt-32'}>
         {new Array(numExperiences).fill(null).map((it, idx) => (
           <CircleButton
+            key={`circle-${idx}`}
             isFilled={idx === selectedExperienceIndex}
             onClick={() => { setSelectedExperienceIndex(idx) }}
           />
@@ -37,14 +38,13 @@ const CircleButton = ({ isFilled, onClick }) => (
   <button class={'experience-dot'} style={{ backgroundColor: isFilled ? '#004276' : undefined }} onClick={onClick} />
 )
 
-const Experience = ({ eventName, companyName, location, date }) => {
-  console.log("BLAH", date);
+const Experience = ({ eventName, company, location, date }) => {
   return (
-    <div>
-      <h3 className={'heading-3'}>{eventName}</h3>
-      <p>{companyName}</p>
-      <p>{location}</p>
-      <p>{date}</p>
+    <div class={'flex flex-col items-center'}>
+      <h3 className={'heading-3 mt-2'}>{eventName}</h3>
+      <p className={'text-xl mt-3.5'}>{company}</p>
+      <p className={'mt-0.5'}>{location}</p>
+      <p className={'mt-0.5'}>{date}</p>
     </div>
   )
 }

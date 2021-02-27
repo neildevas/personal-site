@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from "../components/image"
+import Image from "../components/HeroImage"
 import { graphql, useStaticQuery } from "gatsby"
 import Img from "gatsby-image"
 
@@ -23,7 +23,7 @@ const About = () => {
     <div>
       <div className={'grid md:grid-cols-2'}>
         <div className={'section-header'}>
-          <h1 className={'heading-1 text-3xl md:text-4xl'}>Who am I</h1>
+          <h2>Who am I</h2>
           <p className={'subheading'}>My name is Neil. I grew up in Long Island, New York, and graduated from McGill University with a degree in Computer Science in 2019.
             Currently, I work as a software engineer at Zillow Group. Most of my free time is spent trying to figure out how to start a business.
           </p>
