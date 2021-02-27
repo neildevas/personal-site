@@ -12,13 +12,19 @@ const HeroSection = () => {
             Exerciser <Emoji emoji={'🏃'} label={'runner'} />,
             Reader <Emoji emoji={'📚'} label={'books'} />,
             Paleo <Emoji emoji={'🍳'} label={'frying-pan'} />,
-            Chocolate Chip Cookie Lover <Emoji emoji={'🍪'} label={'cookie'} />
+            Human Cookie Monster <Emoji emoji={'🍪'} label={'cookie'} />
           </h2>
         </div>
-        <div class={'mt-8 sm:mt-0 max-w-full sm:mx-0'}>
+        <div className={'mt-8 md:mt-0 max-w-full sm:mx-0 flex justify-center xl:relative relative lg:static hero-circle-container'}>
+          <div className={'hero-circle'}>
+
+          </div>
           <Image />
         </div>
       </div>
+      {/*<div class={'hero-circle'}>*/}
+
+      {/*</div>*/}
     </div>
   )
 }

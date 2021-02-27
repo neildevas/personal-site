@@ -8,9 +8,25 @@
         @apply text-center md:text-left font-bold text-4xl text-gray-800 md:text-5xl
     }
     .section-header {
-        @apply max-w-prose sm:flex sm:flex-col sm:justify-center px-8
+        @apply max-w-prose mx-auto md:flex md:flex-col md:justify-center px-8
     }
     .subheading {
         @apply text-center md:text-left mt-4
+    }
+    .hero-circle {
+        background: transparent linear-gradient(180deg, #01AEDE 0%, #80D0C7 100%) 0% 0% no-repeat padding-box;
+        /*top: -75px;*/
+        /*right: -75px;*/
+        /*width: 800px;*/
+        /*height: 800px;*/
+        /*border-radius:400px;*/
+        z-index: -1;
+        @apply
+        md:absolute
+        xl:h-800 xl:w-800 xl:-top-200 xl:-right-200
+        lg:h-700 lg:w-700 lg:-top-50 lg:-right-100
+        md:h-650 md:w-650 md:-top-50 md:-right-100
+        h-500 w-500
+        absolute rounded-full
     }
 }

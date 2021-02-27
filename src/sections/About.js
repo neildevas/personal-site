@@ -11,7 +11,7 @@ const About = () => (
         </p>
       </div>
       <div className={'mt-8 sm:mt-0 max-w-full sm:mx-0'}>
-        <Image/>
+        {/*<Image isFluid={true} />*/}
       </div>
     </div>
   </div>

@@ -12,25 +12,52 @@ import Img from "gatsby-image"
  * - `gatsby-image`: https://gatsby.dev/gatsby-image
  * - `useStaticQuery`: https://www.gatsbyjs.com/docs/use-static-query/
  */
-
-const Image = () => {
+// Fixed will be a set width, fluid will be 100% of its container
+const Image = ({ isFluid = false }) => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "gatsby-astronaut.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 300) {
-            ...GatsbyImageSharpFluid
-          }
+        image: file(relativePath:{eq:"hero-image-largest.png"}) {
+            id
+            childImageSharp {
+                fluid(maxHeight:500, maxWidth:500) {
+                    ...GatsbyImageSharpFluid
+                }
+                fixed(height:500) {
+                    ...GatsbyImageSharpFixed
+                }
+            }
         }
-      }
     }
   `)
 
-  if (!data?.placeholderImage?.childImageSharp?.fluid) {
+  if (isFluid) {
+    if (!data?.image?.childImageSharp?.fluid) {
+      return <div>Picture not found</div>
+    }
+
+    return (
+      <Img
+        fluid={data.image.childImageSharp.fluid}
+        objectFit={'cover'}
+        imgStyle={{ height: "100%", width: '100%'}}
+        // objectPosition="50% 50%"
+        alt="hero-image"
+      />
+    )
+  }
+
+  if (!data?.image?.childImageSharp?.fixed) {
     return <div>Picture not found</div>
   }
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      fixed={data.image.childImageSharp.fixed}
+      objectFit={'cover'}
+      // objectPosition="50% 50%"
+      alt="hero-image"
+    />
+  )
 }
 
 export default Image
