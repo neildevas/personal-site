@@ -16,10 +16,8 @@ const HeroSection = () => {
           </h2>
         </div>
         <div className={'mt-8 md:mt-0 max-w-full sm:mx-0 flex justify-center xl:relative relative lg:static hero-circle-container'}>
-          <div className={'hero-circle'}>
-
-          </div>
-          <Image />
+          <div className={'hero-circle'} />
+          <Image path={'hero-image-largest.png'}/>
         </div>
       </div>
       {/*<div class={'hero-circle'}>*/}

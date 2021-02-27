@@ -1,0 +1,37 @@
+[{
+  "eventName": "Born",
+  "company": "My Parents",
+  "location": "New York, NY",
+  "date": "March 1997",
+  "image": ""
+}, {
+  "eventName": "BSc. Computer Science",
+  "company": "McGill University",
+  "location": "Montreal, QC",
+  "date": "August 2015 - May 2019",
+  "image": "../images/logos/mcgill.svg"
+}, {
+  "eventName": "Software Engineering Intern",
+  "company": "Keyo",
+  "location": "Palo Alto, CA",
+  "date": "May 2017 - August 2017",
+  "image": "../images/logos/keyo-blue.svg"
+}, {
+  "eventName": "Software Engineering Intern",
+  "company": "Keyo",
+  "location": "Palo Alto, CA",
+  "date": "May 2018 - August 2018",
+  "image": "../images/logos/keyo-blue.svg"
+}, {
+  "eventName": "Software Engineer",
+  "company": "Keyo",
+  "location": "Palo Alto, CA",
+  "date": "August 2019 - Oct 2020",
+  "image": "../images/logos/keyo-blue.svg"
+}, {
+  "eventName": "Software Development Engineer",
+  "company": "Zillow Group",
+  "location": "Remote",
+  "date": "Oct 2020 - Present",
+  "image": "../images/logos/zillow.svg"
+}]

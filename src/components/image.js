@@ -13,7 +13,7 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.com/docs/use-static-query/
  */
 // Fixed will be a set width, fluid will be 100% of its container
-const Image = ({ isFluid = false }) => {
+const Image = ({ isFluid = false, path }) => {
   const data = useStaticQuery(graphql`
     query {
         image: file(relativePath:{eq:"hero-image-largest.png"}) {

@@ -4,22 +4,29 @@
 @tailwind utilities;
 
 @layer components {
+    .experience-dot {
+        width: 20px;
+        height: 20px;
+        border-radius: 10px;
+        border: 2px solid #004276;
+        margin-right: 4px;
+        display: inline-block;
+    }
     .heading-1 {
         @apply text-center md:text-left font-bold text-4xl text-gray-800 md:text-5xl
     }
+    .heading-3 {
+        @apply text-center font-bold text-xl text-gray-800 md:text-2xl
+
+    }
     .section-header {
-        @apply max-w-prose mx-auto md:flex md:flex-col md:justify-center px-8
+        @apply max-w-prose mx-auto md:mx-0 md:flex md:flex-col md:justify-center px-8
     }
     .subheading {
         @apply text-center md:text-left mt-4
     }
     .hero-circle {
         background: transparent linear-gradient(180deg, #01AEDE 0%, #80D0C7 100%) 0% 0% no-repeat padding-box;
-        /*top: -75px;*/
-        /*right: -75px;*/
-        /*width: 800px;*/
-        /*height: 800px;*/
-        /*border-radius:400px;*/
         z-index: -1;
         @apply
         md:absolute

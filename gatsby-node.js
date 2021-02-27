@@ -22,7 +22,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   }
 
   const projects = result.data.allProjectsJson.edges;
-  console.log('PROJECTS', projects);
   projects.forEach(({ node: project }) => {
     const { slug } = project;
 
