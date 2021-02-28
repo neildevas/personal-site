@@ -5,6 +5,11 @@ import Layout from "../components/layout"
 import Image from "../components/HeroImage"
 import SEO from "../components/seo"
 import ProjectPreview from "../components/projectPreview"
+import HeroSection from "../sections/Hero"
+import Spacer from "../components/Spacer"
+import About from "../sections/About"
+import Experiences from "../sections/Experiences"
+import Projects from "../sections/Projects"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`{
@@ -31,23 +36,13 @@ const IndexPage = () => {
   const projects = data.allProjectsJson.edges;
   return (
     <Layout>
-      {/*{projects.map(({ node: project }) => {*/}
-      {/*  const title = project.title;*/}
-      {/*  const backgroundColor = project.backgroundColor;*/}
-      {/*  const textColor = project.textColor;*/}
-      {/*  const slug = project.slug;*/}
-      {/*  const imageData = project.image?.childImageSharp.fluid;*/}
-
-      {/*  return (*/}
-      {/*    <ProjectPreview*/}
-      {/*      title={title}*/}
-      {/*      backgroundColor={backgroundColor}*/}
-      {/*      textColor={textColor}*/}
-      {/*      slug={slug}*/}
-      {/*      imageData={imageData}*/}
-      {/*    />*/}
-      {/*  )*/}
-      {/*})}*/}
+      <HeroSection/>
+      <Spacer size={32} />
+      <About/>
+      <Spacer size={32} />
+      <Experiences/>
+      <Spacer size={32} />
+      <Projects/>
     </Layout>
   )
 }

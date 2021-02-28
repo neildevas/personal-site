@@ -5,6 +5,9 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        'dark-blue': '#004276'
+      },
       fontFamily: {
         headline: 'Montserrat, sans-serif',
         body: 'Roboto, sans-serif'
@@ -35,7 +38,9 @@ module.exports = {
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      backgroundColor: ['active'],
+    },
   },
   plugins: [],
 }

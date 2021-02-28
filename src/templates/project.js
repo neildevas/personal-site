@@ -8,13 +8,13 @@ export const query = graphql`
         projectsJson(slug: {eq: $slug}) {
             title
             url
-            image {
-                childImageSharp {
-                    fluid {
-                        ...GatsbyImageSharpFluid
-                    }
-                }
-            }
+#            image {
+#                childImageSharp {
+#                    fluid {
+#                        ...GatsbyImageSharpFluid
+#                    }
+#                }
+#            }
         }
     }
 
@@ -23,7 +23,7 @@ const ProjectTemplate = ({ data }) => {
   const project = data.projectsJson;
   return (
     <Layout>
-      <Project {...project} />
+      {/*<Project {...project} />*/}
     </Layout>
   )
 }

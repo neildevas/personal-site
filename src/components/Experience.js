@@ -1,51 +1,18 @@
 import React from 'react'
 
-const Experience = ({ variant, header, date, body }) => {
-  if(variant === "left"){
-    return (
-      <div className="group w-full timeline-left px-5 text-left font-manrope">
-        <div className="flex items-end pt-4">
-          <div className="flex-none timeline-sq-blue group-hover:timeline-sq-blue-hover duration-1000 bg-themeBlue h-4 w-4 ease-in-out"/>
-          <h3 className="font-thin ml-4 text-base sm:text-lg">{header}</h3>
-        </div>
-        <h5 className="font-semibold ml-1 text-sm sm:text-base">{date}</h5>
-        <p className="max-h-0 overflow-hidden group-hover:max-h-100 mb-4 font-thin ml-1 mt-1 sm:mt-2 text-sm sm:text-base duration-2000 leading-snug">
-          {body}
-        </p>
+const Experience = ({ eventName, company, location, date, url, pinUrl }) => {
+  return (
+    <div class={'flex flex-col items-center'}>
+      {Boolean(url) && <img src={url} style={{ objectFit: 'contain', width: 200, height: 40 }} />}
+      <h3 className={'heading-3 mt-8'}>{eventName}</h3>
+      <p className={'text-xl mt-2'}>{company}</p>
+      <div class={'flex flex-row justify-center'}>
+        <img src={pinUrl} alt={'pin'} style={{ marginRight: 8 }} />
+        <p className={'mt-0.5'}>{location}</p>
       </div>
-    )
-  }else if(variant === "right"){
-    return (
-      <div className="group w-full timeline-right px-5 text-right font-manrope">
-        <div className="flex items-start pt-4 justify-end">
-          <h3 className="font-thin mr-4 text-base sm:text-lg">{header}</h3>
-          <div className="flex-none timeline-sq-red group-hover:timeline-sq-red-hover duration-1000 bg-themeRed h-4 w-4 ease-in-out"/>
-        </div>
-        <h5 className="font-semibold mr-1 text-sm sm:text-base">{date}</h5>
-        <p className="max-h-0 overflow-hidden group-hover:max-h-100 mb-4 font-thin mr-1 mt-1 sm:mt-2 text-sm sm:text-base duration-2000 leading-snug">
-          {body}
-        </p>
-      </div>
-    )
-  }else if(variant === "top"){
-    return (
-      <div className="group w-full timeline-left timeline-top px-5 text-left font-manrope">
-        <div className="flex items-end pt-4">
-          <div className="flex-none timeline-sq-blue group-hover:timeline-sq-blue-hover duration-1000 bg-themeBlue h-4 w-4 ease-in-out"/>
-          <h3 className="font-thin ml-4 text-base sm:text-lg">{header}</h3>
-        </div>
-        <h5 className="font-semibold ml-1 text-sm sm:text-base">{date}</h5>
-        <p className="max-h-0 overflow-hidden group-hover:max-h-100 mb-4 font-thin ml-1 mt-1 sm:mt-2 text-sm sm:text-base duration-2000 leading-snug">
-          {body}
-        </p>
-      </div>
-    )
-  }else{
-    return(
-      <>
-      </>
-    )
-  }
+      <p className={'mt-0.5'}>{date}</p>
+    </div>
+  )
 }
 
 export default Experience

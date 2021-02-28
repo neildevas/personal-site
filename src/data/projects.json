@@ -3,28 +3,28 @@
     "title": "Pass the AUX",
     "backgroundColor": "black",
     "textColor": "white",
-    "image": "../images/pass-the-aux-logo.png",
+    "image": "../images/logos/pass-the-aux.svg",
     "slug": "pass-the-aux",
     "url": "https://www.passtheauxapp.com/"
   }, {
     "title": "Keyo Apartments",
     "backgroundColor": "#007AFF",
     "textColor": "white",
-    "image": "../images/keyo-logo.png",
+    "image": "../images/logos/keyo-white.svg",
     "slug": "keyo-apartments",
     "url": "keyo.com"
   }, {
     "title": "Keyo Partners",
     "backgroundColor": "#1B1B1D",
     "textColor": "white",
-    "image": "../images/keyo-logo.png",
+    "image": "../images/logos/keyo-white.svg",
     "slug": "keyo-partners",
     "url": "keyo.com/partners"
   }, {
     "title": "SuperAgent LIVE",
     "backgroundColor": "white",
     "textColor": "black",
-    "image": "../images/keyo-logo.png",
+    "image": "../images/logos/keyo-white.svg",
     "slug": "superagent",
     "url": "superagent.live"
   }, {
@@ -32,6 +32,7 @@
     "backgroundColor": "#004276",
     "textColor": "white",
     "slug": "personal-site",
+    "image": null,
     "url": "neilde.vas"
   }
 ]
