@@ -30,7 +30,7 @@ const Experiences = () => {
   const item = data.experiences.nodes[selectedExperienceIndex]
   return (
     <div>
-      <div className={'w-full max-w-6xl mx-auto'}>
+      <div className={'full-width-section'}>
         <div className={'section-header'}>
           <h2>Work History & Experiences</h2>
           <p className={'subheading'}>via this cool timeline thing</p>

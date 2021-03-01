@@ -10,6 +10,7 @@ import Spacer from "../components/Spacer"
 import About from "../sections/About"
 import Experiences from "../sections/Experiences"
 import Projects from "../sections/Projects"
+import Social from "../sections/Social"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`{
@@ -43,6 +44,8 @@ const IndexPage = () => {
       <Experiences/>
       <Spacer size={32} />
       <Projects/>
+      <Spacer size={32} />
+      <Social />
     </Layout>
   )
 }

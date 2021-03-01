@@ -29,10 +29,10 @@ const Employment = () => {
           }
       }
   `);
-  console.log('DATA', data);
+
   return (
     <div>
-      <div className={'w-full max-w-6xl mx-auto'}>
+      <div className={'full-width-section'}>
         <div className={'section-header'}>
           <h2>Projects & Work</h2>
         </div>

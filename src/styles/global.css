@@ -43,10 +43,12 @@
         h-500 w-500
         absolute rounded-full
     }
-
     .project-card {
         @apply cursor-pointer max-w-320
         relative flex flex-col justify-center w-full h-72 p-4
         rounded-xl shadow-lg transform hover:-translate-y-1 hover:scale-105
+    }
+    .full-width-section {
+        @apply w-full max-w-6xl mx-auto
     }
 }
