@@ -16,7 +16,7 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <div class={'mx-auto max-w-6xl px-2 pb-40'}>
+    <div class={'mx-auto max-w-6xl px-4 md:px-8 pb-40'}>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <main>{children}</main>
     </div>

@@ -12,27 +12,23 @@
     "textColor": "white",
     "image": "../images/logos/keyo-white.svg",
     "slug": "keyo-apartments",
-    "url": "keyo.com"
-  }, {
-    "title": "Keyo Partners",
-    "backgroundColor": "#1B1B1D",
-    "textColor": "white",
-    "image": "../images/logos/keyo-white.svg",
-    "slug": "keyo-partners",
-    "url": "keyo.com/partners"
+    "url": "keyo.com",
+    "shouldConstrainLogo": true
   }, {
     "title": "SuperAgent LIVE",
-    "backgroundColor": "white",
-    "textColor": "black",
+    "backgroundColor": "#D01F00",
+    "textColor": "white",
     "image": "../images/logos/keyo-white.svg",
     "slug": "superagent",
-    "url": "superagent.live"
-  }, {
-    "title": "neilde.vas",
+    "url": "superagent.live",
+    "shouldConstrainLogo": true
+}, {
+    "title": "neildevas.com",
     "backgroundColor": "#004276",
     "textColor": "white",
     "slug": "personal-site",
     "image": null,
-    "url": "neilde.vas"
+    "url": "neildevas.com",
+    "backgroundImage": "../images/site-card-img.jpg"
   }
 ]

@@ -20,9 +20,6 @@ const HeroSection = () => {
           <Image path={'hero-image-largest.png'}/>
         </div>
       </div>
-      {/*<div class={'hero-circle'}>*/}
-
-      {/*</div>*/}
     </div>
   )
 }
