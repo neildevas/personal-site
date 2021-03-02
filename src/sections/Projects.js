@@ -2,6 +2,7 @@ import React from 'react';
 import Img from "gatsby-image"
 import Spacer from "../components/Spacer"
 import { graphql, useStaticQuery } from "gatsby"
+import { Link } from "gatsby"
 
 const Employment = () => {
   const data = useStaticQuery(graphql`
@@ -14,6 +15,7 @@ const Employment = () => {
                       textColor
                       backgroundColor
                       shouldConstrainLogo
+                      slug
                       image {
                           publicURL
                       }
@@ -37,11 +39,14 @@ const Employment = () => {
           <h2>Projects & Work</h2>
         </div>
         <Spacer isSectionSpacer={false} size={12} />
-        <div class={'grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 md:gap-5'}>
-          {data.allProjectsJson.edges.map(({ node }) => (
-            <ProjectCard {...node} key={node.id} logoUrl={node.image?.publicURL} />
-          ))}
+        <div class={'max-w-4xl mx-auto'}>
+          <div className={'grid grid-cols-2 gap-3 sm:grid-cols-3 md:gap-5'}>
+            {data.allProjectsJson.edges.map(({ node }) => (
+              <ProjectCard {...node} key={node.id} logoUrl={node.image?.publicURL}/>
+            ))}
+          </div>
         </div>
+
       </div>
     </div>
   )
@@ -49,18 +54,20 @@ const Employment = () => {
 
 export default Employment;
 
-const ProjectCard = ({ backgroundColor, textColor, title, logoUrl, shouldConstrainLogo, backgroundImage }) => {
+const ProjectCard = ({ backgroundColor, slug, textColor, title, logoUrl, shouldConstrainLogo, backgroundImage }) => {
   const imgStyle = { // TODO - not sustainable. Figure out a better solution with GraphQL
     overflow: "hidden",
     maxWidth: 200,
     ...(shouldConstrainLogo ? { width: '50%', maxWidth: 150 } : {})
   }
   return (
-    <div class={'project-card'} style={{ backgroundColor }}>
-      <div class={'flex-1 flex justify-center align-center'}>
-        <img src={logoUrl} style={imgStyle}/>
+    <Link to={`/projects/${slug}`}>
+      <div class={'project-card'} style={{ backgroundColor }}>
+        <div class={'flex-1 flex justify-center align-center'}>
+          <img src={logoUrl} style={imgStyle}/>
+        </div>
+        <h4 style={{ color: textColor }}>{title}</h4>
       </div>
-      <h4 style={{ color: textColor }}>{title}</h4>
-    </div>
+    </Link>
   )
 }

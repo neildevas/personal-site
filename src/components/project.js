@@ -3,21 +3,12 @@ import { Link } from "gatsby"
 import Image from 'gatsby-image'
 
 const Project = ({ imageData, title, url }) => (
-  <div className={'project'}>
-    <Image fluid={imageData} alt={title} />
-    <h1>
-      {title}
-    </h1>
-    <p>
-      <Link to={url}>
-        View this project online &rarr;
-      </Link>
-    </p>
-    <p>
-      <Link to={'/'}>
-        &larr; Back to all projects
-      </Link>
-    </p>
+  <div className={'w-11/12 bg-black'}>
+    <div className={'h-screen w-screen'}>
+      <div className={'h-screen'}>
+        <h1 className={'text-white'}>{title}</h1>
+      </div>
+    </div>
   </div>
 )
 

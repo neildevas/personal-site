@@ -8,10 +8,10 @@ const HeroSection = () => {
         <div class={'section-header'}>
           <h1 class={'heading-1'}>Hi, I'm Neil <span role={'img'} aria-label={'label'}>👋🏽</span></h1>
           <p class={'text-center md:text-left mt-5 text-gray-600 text-md sm:text-lg md:text-xl'}>
-            Coder <Emoji emoji={'💻'} label={'computer'} />,
-            Exerciser <Emoji emoji={'🏃'} label={'runner'} />,
-            Reader <Emoji emoji={'📚'} label={'books'} />,
-            Paleo <Emoji emoji={'🍳'} label={'frying-pan'} />,
+            Coder <Emoji emoji={'💻'} label={'computer'} />
+            Exerciser <Emoji emoji={'🏃'} label={'runner'} />
+            Reader <Emoji emoji={'📚'} label={'books'} />
+            Health Nut <Emoji emoji={'🍳'} label={'frying-pan'} />
             Human Cookie Monster <Emoji emoji={'🍪'} label={'cookie'} />
           </p>
         </div>
@@ -26,7 +26,7 @@ const HeroSection = () => {
 
 
 const Emoji = ({ emoji, label }) => (
-  <span role={'img'} aria-label={label}>{emoji}</span>
+  <span role={'img'} aria-label={label} style={{ marginRight: 8 }}>{emoji}</span>
 )
 
 export default HeroSection;

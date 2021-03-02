@@ -15,14 +15,6 @@
     "url": "keyo.com",
     "shouldConstrainLogo": true
   }, {
-    "title": "SuperAgent LIVE",
-    "backgroundColor": "#D01F00",
-    "textColor": "white",
-    "image": "../images/logos/keyo-white.svg",
-    "slug": "superagent",
-    "url": "superagent.live",
-    "shouldConstrainLogo": true
-}, {
     "title": "neildevas.com",
     "backgroundColor": "#004276",
     "textColor": "white",
