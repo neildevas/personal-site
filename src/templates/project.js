@@ -2,6 +2,7 @@ import React from 'react'
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
 import Project from "../components/project"
+import ProjectLayout from "../components/ProjectLayout"
 
 export const query = graphql`
     query MyQuery($slug: String!) {
@@ -18,9 +19,9 @@ export const query = graphql`
 const ProjectTemplate = ({ data }) => {
   const project = data.projectsJson;
   return (
-    <Layout>
+    <ProjectLayout>
       <Project {...project} />
-    </Layout>
+    </ProjectLayout>
   )
 }
 

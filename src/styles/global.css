@@ -51,4 +51,8 @@
     .full-width-section {
         @apply w-full max-w-6xl mx-auto
     }
+    .project-hero-section {
+        height: 80vh;
+        @apply w-full bg-black
+    }
 }
