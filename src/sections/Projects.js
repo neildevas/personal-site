@@ -66,7 +66,7 @@ const ProjectCard = ({ backgroundColor, slug, textColor, title, logoUrl, shouldC
         <div class={'flex-1 flex justify-center align-center'}>
           <img src={logoUrl} style={imgStyle}/>
         </div>
-        <h4 style={{ color: textColor }}>{title}</h4>
+        <h4 style={{ color: textColor }} class={'text-center'}>{title}</h4>
       </div>
     </Link>
   )

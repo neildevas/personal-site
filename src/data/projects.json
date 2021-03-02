@@ -5,7 +5,10 @@
     "textColor": "white",
     "image": "../images/logos/pass-the-aux.svg",
     "slug": "pass-the-aux",
-    "url": "https://www.passtheauxapp.com/"
+    "url": "https://www.passtheauxapp.com/",
+    "description": "A social music controller for iOS",
+    "websiteLink": "https://www.passtheauxapp.com/",
+    "appStoreLink": "https://apps.apple.com/us/app/pass-the-aux/id1451423149"
   }, {
     "title": "Keyo Apartments",
     "backgroundColor": "#007AFF",
@@ -13,7 +16,10 @@
     "image": "../images/logos/keyo-white.svg",
     "slug": "keyo-apartments",
     "url": "keyo.com",
-    "shouldConstrainLogo": true
+    "shouldConstrainLogo": true,
+    "websiteLink": "https://keyo.com",
+    "appStoreLink": "https://apps.apple.com/us/app/keyo-apartments/id1247679352",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.keyoapartmentapp&hl=en&gl=US"
   }, {
     "title": "neildevas.com",
     "backgroundColor": "#004276",
@@ -21,6 +27,8 @@
     "slug": "personal-site",
     "image": null,
     "url": "neildevas.com",
-    "backgroundImage": "../images/site-card-img.jpg"
+    "backgroundImage": "../images/site-card-img.jpg",
+    "websiteLink": "neildevas.com",
+    "githubLink": "https://github.com/neildevas/personal-site"
   }
 ]

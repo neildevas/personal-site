@@ -1,7 +1,7 @@
 import React from 'react'
 import { graphql } from "gatsby";
 import Layout from "../components/layout"
-import Project from "../components/project"
+import Project from "../components/Project"
 import ProjectLayout from "../components/ProjectLayout"
 
 export const query = graphql`
@@ -9,6 +9,11 @@ export const query = graphql`
         projectsJson(slug: {eq: $slug}) {
             title
             url
+            description
+            websiteLink
+            appStoreLink
+            playStoreLink
+            githubLink
             image {
                 publicURL
             }
