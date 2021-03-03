@@ -52,11 +52,14 @@
         @apply w-full max-w-6xl mx-auto
     }
     .project-hero-section {
-        height: 80vh;
-        @apply w-full bg-black
+        height: 50vh;
+        @apply w-full
     }
     .github-button {
         background-color: #5C6BC0;
         color: white;
+    }
+    .project-link-button {
+        @apply px-2 rounded-lg h-10 flex items-center justify-center mr-3
     }
 }
