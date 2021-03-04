@@ -5,7 +5,21 @@
     "textColor": "white",
     "image": "../images/logos/pass-the-aux.svg",
     "slug": "pass-the-aux",
-    "url": "https://www.passtheauxapp.com/"
+    "url": "https://www.passtheauxapp.com/",
+    "description": "A social music controller for iOS",
+    "websiteLink": "https://www.passtheauxapp.com/",
+    "appStoreLink": "https://apps.apple.com/us/app/pass-the-aux/id1451423149",
+    "highlights": [
+      "Express server with REST API, MongoDB database built on top of a NodeJS backend",
+      "Experimented implementation with socket.io for real time updates to queue",
+      "Push notifications with Apple and Firebase",
+      "Built on top of Spotify API"
+    ],
+    "buttonColor": "#fb8c00",
+    "tools": ["JavaScript", "NodeJS", "MongoDB", "Spotify Web API", "Express", "socket.io", "Heroku"],
+    "heroImage": "../images/project-images/pass-the-aux.jpeg",
+    "heroImageIsFluid": false,
+    "shouldGrayscaleImage": true
   }, {
     "title": "Keyo Apartments",
     "backgroundColor": "#007AFF",
@@ -13,14 +27,40 @@
     "image": "../images/logos/keyo-white.svg",
     "slug": "keyo-apartments",
     "url": "keyo.com",
-    "shouldConstrainLogo": true
-  }, {
+    "shouldConstrainLogo": true,
+    "websiteLink": "https://keyo.com",
+    "appStoreLink": "https://apps.apple.com/us/app/keyo-apartments/id1247679352",
+    "playStoreLink": "https://play.google.com/store/apps/details?id=com.keyoapartmentapp&hl=en&gl=US",
+    "buttonColor": "#007AFF",
+    "highlights": [
+      "Developed 4.8 star rated React Native app for iOS and Android",
+      "Developed multiple React apps serving a variety of stakeholders in the real estate industry",
+      "Devops work with AWS, Bitrise, AppCenter, CloudFlare"
+    ],
+    "tools": ["JavaScript","React", "React Native", "NodeJS", "PostgreSQL", "Express", "AWS", "Mapbox"],
+    "heroImage": "../images/project-images/keyo-desktop.png",
+    "heroImageIsFluid": true,
+    "shouldGrayscaleImage": true
+
+}, {
     "title": "neildevas.com",
     "backgroundColor": "#004276",
     "textColor": "white",
     "slug": "personal-site",
     "image": null,
     "url": "neildevas.com",
-    "backgroundImage": "../images/site-card-img.jpg"
+    "buttonColor": "#004276",
+    "description": "This beautiful site you are looking at right now",
+    "backgroundImage": "../images/site-card-img.jpg",
+    "websiteLink": "https://neildevas.com",
+    "githubLink": "https://github.com/neildevas/personal-site",
+    "tools": ["JavaScript", "React", "Gatsby", "Adobe XD", "GraphQL", "Adobe Photoshop"],
+    "highlights": [
+      "Learned UI/UX design with Adobe XD, designed website from scratch",
+      "Created site with GatsbyJS"
+    ],
+    "heroImage": "../images/hero-image-largest.png",
+    "heroImageIsFluid": false,
+    "shouldGrayscaleImage": true
   }
 ]

@@ -1,10 +1,8 @@
 import React from "react"
-import { graphql, Link, useStaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/HeroImage"
 import SEO from "../components/seo"
-import ProjectPreview from "../components/projectPreview"
 import HeroSection from "../sections/Hero"
 import Spacer from "../components/Spacer"
 import About from "../sections/About"

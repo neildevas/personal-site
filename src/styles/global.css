@@ -14,7 +14,7 @@
         @apply text-center font-bold text-xl text-gray-800 md:text-2xl
     }
     h4 {
-        @apply text-center font-bold text-lg text-gray-800 md:text-xl
+        @apply font-bold text-lg text-gray-800 md:text-xl
     }
 }
 @layer components {
@@ -50,5 +50,16 @@
     }
     .full-width-section {
         @apply w-full max-w-6xl mx-auto
+    }
+    .project-hero-section {
+        height: 50vh;
+        @apply w-full grid md:grid-cols-2
+    }
+    .github-button {
+        background-color: #5C6BC0;
+        color: white;
+    }
+    .project-link-button {
+        @apply px-2 rounded-lg h-10 flex items-center justify-center mr-3 shadow-lg mt-2
     }
 }
