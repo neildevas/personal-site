@@ -16,7 +16,8 @@
       "Built on top of Spotify API"
     ],
     "buttonColor": "#fb8c00",
-    "tools": ["JavaScript", "NodeJS", "MongoDB", "Spotify Web API", "Express", "socket.io", "Heroku"]
+    "tools": ["JavaScript", "NodeJS", "MongoDB", "Spotify Web API", "Express", "socket.io", "Heroku"],
+    "heroImage": "../images/project-images/pass-the-aux.jpeg"
   }, {
     "title": "Keyo Apartments",
     "backgroundColor": "#007AFF",

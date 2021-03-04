@@ -50,7 +50,7 @@ const ProjectHero = ({ title,
           <div className={'md:pt-8'}>
             <h1>{title}</h1>
             <p className={'mt-4 text-center md:text-left'}>{description}</p>
-            <div class={'flex flex-row mt-8 justify-center md:justify-start'}>
+            <div class={'flex flex-row mt-6 justify-center md:justify-start flex-wrap'}>
               {buttonLinks.map(({ type, link }) => {
                 if (!link) return null;
                 return renderButton({ type, link })
@@ -59,8 +59,10 @@ const ProjectHero = ({ title,
           </div>
         </div>
         <div>
-          <div className={'mx-auto rounded-full justify-center items-center mt-8 md:mt-0'} style={{ backgroundColor: buttonColor, maxWidth: '70vw' }}>
-            {Boolean(heroImage) && <Img fluid={heroImage.childImageSharp.fluid} objectFit={'cover'} />}
+          <div className={'mx-auto rounded-full justify-center items-center mt-8 md:mt-0'}
+           style={{ backgroundColor: buttonColor, maxWidth: '70vw' }}
+          >
+            {Boolean(heroImage) && <Img fluid={heroImage.childImageSharp.fluid} objectFit={'contain'} />}
           </div>
         </div>
       </div>

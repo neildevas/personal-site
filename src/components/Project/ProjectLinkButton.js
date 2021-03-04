@@ -29,7 +29,7 @@ export const WebsiteButton = ({ link, color }) => (
 )
 
 export const GooglePlayButton = ({ link }) => (
-  <a href={link} target='_blank' className={'project-link-button'} style={{ padding: 0, marginLeft: -8 }} type={'button'}>
+  <a href={link} target='_blank' className={'project-link-button w-auto'} style={{ padding: 0, marginLeft: -8 }} type={'button'}>
     <img src={googlePlayButton} />
   </a>
 )
