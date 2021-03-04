@@ -18,7 +18,8 @@
     "buttonColor": "#fb8c00",
     "tools": ["JavaScript", "NodeJS", "MongoDB", "Spotify Web API", "Express", "socket.io", "Heroku"],
     "heroImage": "../images/project-images/pass-the-aux.jpeg",
-    "heroImageIsFluid": false
+    "heroImageIsFluid": false,
+    "shouldGrayscaleImage": true
   }, {
     "title": "Keyo Apartments",
     "backgroundColor": "#007AFF",
@@ -38,7 +39,9 @@
     ],
     "tools": ["JavaScript","React", "React Native", "NodeJS", "PostgreSQL", "Express", "AWS", "Mapbox"],
     "heroImage": "../images/project-images/keyo-desktop.png",
-    "heroImageIsFluid": true
+    "heroImageIsFluid": true,
+    "shouldGrayscaleImage": true
+
 }, {
     "title": "neildevas.com",
     "backgroundColor": "#004276",
@@ -49,7 +52,7 @@
     "buttonColor": "#004276",
     "description": "This beautiful site you are looking at right now",
     "backgroundImage": "../images/site-card-img.jpg",
-    "websiteLink": "neildevas.com",
+    "websiteLink": "https://neildevas.com",
     "githubLink": "https://github.com/neildevas/personal-site",
     "tools": ["JavaScript", "React", "Gatsby", "Adobe XD", "GraphQL", "Adobe Photoshop"],
     "highlights": [
