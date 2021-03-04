@@ -20,14 +20,13 @@ const Social = () => {
       }
 
   `);
-  console.log('SOCIAL', data);
+
   return (
     <div>
       <div className={'full-width-section'}>
         <div className={'section-header'}>
-          <h2>Social</h2>
+          <h2 class={'pb-12'}>Social</h2>
         </div>
-        <Spacer isSectionSpacer={false} size={12}/>
         <div className={'grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 md:gap-5'}>
           {data.social.edges.map(({ node }) => (
             <SocialItem {...node} key={node.id} iconUrl={node.icon.publicURL} />

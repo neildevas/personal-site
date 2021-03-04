@@ -36,9 +36,8 @@ const Employment = () => {
     <div>
       <div className={'full-width-section'}>
         <div className={'section-header'}>
-          <h2>Projects & Work</h2>
+          <h2 class={'pb-12'}>Projects & Work</h2>
         </div>
-        <Spacer isSectionSpacer={false} size={12} />
         <div class={'max-w-4xl mx-auto'}>
           <div className={'grid grid-cols-2 gap-3 sm:grid-cols-3 md:gap-5'}>
             {data.allProjectsJson.edges.map(({ node }) => (
