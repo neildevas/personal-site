@@ -53,13 +53,13 @@
     }
     .project-hero-section {
         height: 50vh;
-        @apply w-full
+        @apply w-full grid md:grid-cols-2
     }
     .github-button {
         background-color: #5C6BC0;
         color: white;
     }
     .project-link-button {
-        @apply px-2 rounded-lg h-10 flex items-center justify-center mr-3
+        @apply px-2 rounded-lg h-10 flex items-center justify-center mr-3 shadow-lg
     }
 }

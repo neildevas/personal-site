@@ -20,8 +20,15 @@ export const query = graphql`
             highlights
             tools
             buttonColor
-            image {
-                publicURL
+            heroImage {
+                childImageSharp {
+                    fixed(height:500) {
+                        ...GatsbyImageSharpFixed
+                    }
+                    fluid(maxHeight:500, maxWidth:500) {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
             }
         }
     }

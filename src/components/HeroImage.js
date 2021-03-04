@@ -13,7 +13,7 @@ import Img from "gatsby-image"
  * - `useStaticQuery`: https://www.gatsbyjs.com/docs/use-static-query/
  */
 // Fixed will be a set width, fluid will be 100% of its container
-const Image = ({ isFluid = false, path }) => {
+const Image = ({ isFluid = false }) => {
   const data = useStaticQuery(graphql`
     query {
         image: file(relativePath:{eq:"hero-image-largest.png"}) {
@@ -49,7 +49,6 @@ const Image = ({ isFluid = false, path }) => {
   if (!data?.image?.childImageSharp?.fixed) {
     return <div>Picture not found</div>
   }
-
   return (
     <Img
       fixed={data.image.childImageSharp.fixed}

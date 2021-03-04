@@ -23,8 +23,8 @@ export const AppStoreButton = ({ link }) => (
 )
 
 export const WebsiteButton = ({ link, color }) => (
-  <a href={link} target='_blank' className={'project-link-button bg-transparent'} style={{ border: `2px solid ${color}` }}>
-    <p style={{ color }} class={'font-medium'}>View Website</p>
+  <a href={link} target='_blank' className={'project-link-button bg-transparent shadow-lg'} style={{ border: `2px solid ${color}` }}>
+    <p style={{ color }} class={'font-medium text-base md:text-sm lg:text-base'}>View Website</p>
   </a>
 )
 

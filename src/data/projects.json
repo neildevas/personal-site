@@ -34,7 +34,8 @@
       "Developed multiple React apps serving a variety of stakeholders in the real estate industry",
       "Devops work with AWS, Bitrise, AppCenter, CloudFlare"
     ],
-    "tools": ["JavaScript","React", "React Native", "NodeJS", "PostgreSQL", "Express", "AWS"]
+    "tools": ["JavaScript","React", "React Native", "NodeJS", "PostgreSQL", "Express", "AWS", "Mapbox"],
+    "heroImage": "../images/project-images/keyo-desktop.png"
 }, {
     "title": "neildevas.com",
     "backgroundColor": "#004276",
@@ -47,7 +48,7 @@
     "backgroundImage": "../images/site-card-img.jpg",
     "websiteLink": "neildevas.com",
     "githubLink": "https://github.com/neildevas/personal-site",
-    "tools": ["JavaScript", "React", "Gatsby", "Adobe XD"],
+    "tools": ["JavaScript", "React", "Gatsby", "Adobe XD", "GraphQL", "Adobe Photoshop"],
     "highlights": [
       "Learned UI/UX design with Adobe XD, designed website from scratch",
       "Created site with GatsbyJS"

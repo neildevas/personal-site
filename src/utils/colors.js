@@ -1,5 +1,5 @@
 const COLOR_MAP = {
-  JavaScript: '#C96E7E',
+  JavaScript: '#4158D0',
   NodeJS: '#87C9FD',
   MongoDB: '#4B34A5',
   'Spotify Web API': '#57B560',
@@ -12,6 +12,9 @@ const COLOR_MAP = {
   AWS: '#E47C35',
   Gatsby: '#5E3994',
   'Adobe XD': '#400935',
+  'Adobe Photoshop': '#071D32',
+  'GraphQL': '#CC47A2',
+  'Mapbox': '#365CF1',
 }
 
 export default COLOR_MAP
