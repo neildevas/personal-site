@@ -8,7 +8,7 @@ import Highlights from "../components/Project/Highlights"
 import Tools from "../components/Project/Tools"
 
 export const query = graphql`
-    query MyQuery($slug: String!) {
+    query MyQuery($slug: String!, $shouldGrayscaleImage: Boolean!) {
         projectsJson(slug: {eq: $slug}) {
             title
             url
@@ -20,12 +20,13 @@ export const query = graphql`
             highlights
             tools
             buttonColor
+            heroImageIsFluid
             heroImage {
                 childImageSharp {
-                    fixed(height:500) {
+                    fixed(height:500, grayscale: $shouldGrayscaleImage) {
                         ...GatsbyImageSharpFixed
                     }
-                    fluid(maxHeight:500, maxWidth:500) {
+                    fluid(maxHeight:500, maxWidth:500, grayscale: $shouldGrayscaleImage) {
                         ...GatsbyImageSharpFluid
                     }
                 }

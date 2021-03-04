@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from "gatsby"
 import Img from 'gatsby-image'
+import clsx from 'clsx';
 import ProjectLinkButton from "./ProjectLinkButton"
 import { GithubButton, WebsiteButton, AppStoreButton, GooglePlayButton } from "./ProjectLinkButton"
 
@@ -13,8 +14,8 @@ const ProjectHero = ({ title,
   githubLink,
   buttonColor,
   heroImage,
+  heroImageIsFluid
 }) => {
-  console.log("HERO IMAGE", heroImage);
   const buttonLinks = [{
     type: 'website',
     link: websiteLink,
@@ -43,6 +44,13 @@ const ProjectHero = ({ title,
     }
     return null;
   }
+  const getImage = () => {
+    if (!heroImage) return null;
+    if (heroImageIsFluid) {
+      return <Img fluid={heroImage.childImageSharp.fluid} objectFit={'contain'} />
+    }
+    return <Img fixed={heroImage.childImageSharp.fixed} objectFit={'contain'} />
+  }
   return (
     <div className={'w-full'}>
       <div className={'w-full grid md:grid-cols-2'}>
@@ -59,10 +67,10 @@ const ProjectHero = ({ title,
           </div>
         </div>
         <div>
-          <div className={'mx-auto rounded-full justify-center items-center mt-8 md:mt-0'}
+          <div className={clsx('mx-auto rounded-full mt-8 md:mt-0', !heroImageIsFluid && 'flex justify-center items-center')}
            style={{ backgroundColor: buttonColor, maxWidth: '70vw' }}
           >
-            {Boolean(heroImage) && <Img fluid={heroImage.childImageSharp.fluid} objectFit={'contain'} />}
+            {getImage()}
           </div>
         </div>
       </div>

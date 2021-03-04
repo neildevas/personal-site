@@ -17,7 +17,8 @@
     ],
     "buttonColor": "#fb8c00",
     "tools": ["JavaScript", "NodeJS", "MongoDB", "Spotify Web API", "Express", "socket.io", "Heroku"],
-    "heroImage": "../images/project-images/pass-the-aux.jpeg"
+    "heroImage": "../images/project-images/pass-the-aux.jpeg",
+    "heroImageIsFluid": false
   }, {
     "title": "Keyo Apartments",
     "backgroundColor": "#007AFF",
@@ -36,7 +37,8 @@
       "Devops work with AWS, Bitrise, AppCenter, CloudFlare"
     ],
     "tools": ["JavaScript","React", "React Native", "NodeJS", "PostgreSQL", "Express", "AWS", "Mapbox"],
-    "heroImage": "../images/project-images/keyo-desktop.png"
+    "heroImage": "../images/project-images/keyo-desktop.png",
+    "heroImageIsFluid": true
 }, {
     "title": "neildevas.com",
     "backgroundColor": "#004276",
@@ -53,6 +55,9 @@
     "highlights": [
       "Learned UI/UX design with Adobe XD, designed website from scratch",
       "Created site with GatsbyJS"
-    ]
-}
+    ],
+    "heroImage": "../images/hero-image-largest.png",
+    "heroImageIsFluid": false,
+    "shouldGrayscaleImage": true
+  }
 ]

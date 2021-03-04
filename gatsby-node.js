@@ -10,6 +10,7 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
         edges {
           node {
             slug
+            shouldGrayscaleImage
           }
         }
       }
@@ -23,12 +24,11 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
 
   const projects = result.data.allProjectsJson.edges;
   projects.forEach(({ node: project }) => {
-    const { slug } = project;
-
+    const { slug, shouldGrayscaleImage = false } = project;
     actions.createPage({
       path: `/projects/${slug}/`,
       component: require.resolve('./src/templates/project.js'),
-      context: { slug }
+      context: { slug, shouldGrayscaleImage }
     })
   })
 }
