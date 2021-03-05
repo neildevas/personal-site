@@ -12,6 +12,7 @@ import Social from "../sections/Social"
 const IndexPage = () => {
   return (
     <Layout>
+      <SEO />
       <HeroSection/>
       <Spacer size={32} />
       <About/>
