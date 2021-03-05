@@ -36,11 +36,12 @@
         background: transparent linear-gradient(180deg, #01AEDE 0%, #80D0C7 100%) 0% 0% no-repeat padding-box;
         z-index: -1;
         @apply
-        md:absolute
-        xl:h-800 xl:w-800 xl:-top-200 xl:-right-200
-        lg:h-700 lg:w-700 lg:-top-50 lg:-right-100
-        md:h-650 md:w-650 md:-top-50 md:-right-100
+        /*md:absolute*/
+        /*xl:h-800 xl:w-800 xl:-top-200 xl:-right-200*/
+        /*lg:h-700 lg:w-700 lg:-top-50 lg:-right-100*/
+        /*md:h-650 md:w-650 md:-top-50 md:-right-100*/
         h-500 w-500
+        /*lg:h-650 lg:w-650 lg:-top-100*/
         absolute rounded-full
     }
     .project-card {

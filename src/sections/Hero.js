@@ -15,7 +15,7 @@ const HeroSection = () => {
             Human Cookie Monster <Emoji emoji={'🍪'} label={'cookie'} />
           </p>
         </div>
-        <div className={'mt-8 md:mt-0 max-w-full sm:mx-0 flex justify-center xl:relative relative lg:static hero-circle-container'}>
+        <div className={'mt-8 md:mt-0 max-w-full sm:mx-0 flex justify-center relative hero-circle-container'}>
           <div className={'hero-circle'} />
           <Image />
         </div>
