@@ -1,5 +1,4 @@
 import React from "react"
-import { graphql, useStaticQuery } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -11,28 +10,6 @@ import Projects from "../sections/Projects"
 import Social from "../sections/Social"
 
 const IndexPage = () => {
-  const data = useStaticQuery(graphql`{
-      allProjectsJson {
-          edges {
-              node {
-                  title
-                  backgroundColor
-                  textColor
-                  slug
-                  image {
-                      childImageSharp {
-                          fluid {
-                              # Choose either the fragment including a small base64ed image, a traced placeholder SVG, or one without.
-                              ...GatsbyImageSharpFluid
-                          }
-                      }
-                  }
-              }
-          }
-      }
-  }
-  `)
-  const projects = data.allProjectsJson.edges;
   return (
     <Layout>
       <HeroSection/>

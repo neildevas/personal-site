@@ -39,7 +39,7 @@ const Employment = () => {
           <h2 class={'pb-12'}>Projects & Work</h2>
         </div>
         <div class={'max-w-4xl mx-auto'}>
-          <div className={'grid grid-cols-2 gap-3 sm:grid-cols-3 md:gap-5'}>
+          <div className={'grid grid-cols-1 gap-3 sm:grid-cols-3 md:gap-5'}>
             {data.allProjectsJson.edges.map(({ node }) => (
               <ProjectCard {...node} key={node.id} logoUrl={node.image?.publicURL}/>
             ))}
@@ -60,7 +60,7 @@ const ProjectCard = ({ backgroundColor, slug, textColor, title, logoUrl, shouldC
     ...(shouldConstrainLogo ? { width: '50%', maxWidth: 150 } : {})
   }
   return (
-    <Link to={`/projects/${slug}`}>
+    <Link to={`/projects/${slug}`} class={'flex justify-center'}>
       <div class={'project-card'} style={{ backgroundColor }}>
         <div class={'flex-1 flex justify-center align-center'}>
           <img src={logoUrl} style={imgStyle}/>

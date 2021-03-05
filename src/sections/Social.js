@@ -31,9 +31,6 @@ const Social = () => {
           {data.social.edges.map(({ node }) => (
             <SocialItem {...node} key={node.id} iconUrl={node.icon.publicURL} />
           ))}
-          {/*{data.allProjectsJson.edges.map(({ node }) => (*/}
-          {/*  // <ProjectCard {...node} key={node.id} logoUrl={node.image?.publicURL}/>*/}
-          {/*))}*/}
         </div>
       </div>
     </div>

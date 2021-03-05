@@ -1,12 +1,9 @@
 import React from 'react';
-import { Link } from "gatsby"
 import Img from 'gatsby-image'
 import clsx from 'clsx';
-import ProjectLinkButton from "./ProjectLinkButton"
 import { GithubButton, WebsiteButton, AppStoreButton, GooglePlayButton } from "./ProjectLinkButton"
 
 const ProjectHero = ({ title,
-  url,
   description,
   websiteLink,
   appStoreLink,

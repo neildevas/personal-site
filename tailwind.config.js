@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       maxWidth: {
         '320': '320px',
+        'half-screen': '50vw',
       },
       colors: {
         'dark-blue': '#004276'
