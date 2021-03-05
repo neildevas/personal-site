@@ -63,12 +63,10 @@ const ProjectHero = ({ title,
             </div>
           </div>
         </div>
-        {/*<div>*/}
           <div className={clsx('mx-auto mt-8 lg:mt-0 relative', !heroImageIsFluid && 'flex justify-center items-center')} style={{ maxWidth: '90vw' }}>
             <div class={'hero-circle'} style={{ background: buttonColor }} />
             {getImage()}
           </div>
-        {/*</div>*/}
       </div>
     </div>
   )
