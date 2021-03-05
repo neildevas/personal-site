@@ -29,6 +29,9 @@
     .section-header {
         @apply max-w-prose mx-auto md:mx-0 md:flex md:flex-col md:justify-center
     }
+    .project-section-header {
+        @apply max-w-prose mx-auto lg:mx-0 lg:flex lg:flex-col lg:justify-center
+    }
     .subheading {
         @apply text-center md:text-left mt-4
     }

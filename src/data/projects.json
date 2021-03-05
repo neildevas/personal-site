@@ -39,7 +39,7 @@
     ],
     "tools": ["JavaScript","React", "React Native", "NodeJS", "PostgreSQL", "Express", "AWS", "Mapbox"],
     "heroImage": "../images/project-images/keyo-desktop.png",
-    "heroImageIsFluid": true,
+    "heroImageIsFluid": false,
     "shouldGrayscaleImage": true
 
 }, {

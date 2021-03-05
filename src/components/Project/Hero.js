@@ -46,16 +46,16 @@ const ProjectHero = ({ title,
     if (heroImageIsFluid) {
       return <Img fluid={heroImage.childImageSharp.fluid} objectFit={'contain'} />
     }
-    return <Img fixed={heroImage.childImageSharp.fixed} objectFit={'contain'} />
+    return <Img fixed={heroImage.childImageSharp.fixed} objectFit={'contain'} imgStyle={{ objectFit: 'contain', width: 500 }}/>
   }
   return (
-    <div className={'w-full'}>
-      <div className={'w-full grid md:grid-cols-2'}>
-        <div className={'h-full md:flex md:flex-col md:justify-center'}>
-          <div className={'md:pt-8'}>
-            <h1>{title}</h1>
-            <p className={'mt-4 text-center md:text-left'}>{description}</p>
-            <div class={'flex flex-row mt-6 justify-center md:justify-start flex-wrap'}>
+    <div>
+      <div className={'grid lg:grid-cols-2'}>
+        <div className={'h-full lg:flex lg:flex-col lg:justify-center'}>
+          <div className={'lg:pt-8'}>
+            <h1 class={'text-center lg:text-left'}>{title}</h1>
+            <p className={'mt-4 text-center lg:text-left'}>{description}</p>
+            <div class={'flex flex-row mt-6 justify-center lg:justify-start flex-wrap'}>
               {buttonLinks.map(({ type, link }) => {
                 if (!link) return null;
                 return renderButton({ type, link })
@@ -63,13 +63,12 @@ const ProjectHero = ({ title,
             </div>
           </div>
         </div>
-        <div>
-          <div className={clsx('mx-auto rounded-full mt-8 md:mt-0', !heroImageIsFluid && 'flex justify-center items-center')}
-           style={{ backgroundColor: buttonColor, maxWidth: '70vw' }}
-          >
+        {/*<div>*/}
+          <div className={clsx('mx-auto mt-8 lg:mt-0 relative', !heroImageIsFluid && 'flex justify-center items-center')} style={{ maxWidth: '90vw' }}>
+            <div class={'hero-circle'} style={{ background: buttonColor }} />
             {getImage()}
           </div>
-        </div>
+        {/*</div>*/}
       </div>
     </div>
   )

@@ -1,18 +1,16 @@
 import React from "react"
 
 const Highlights = ({ highlights = [] }) => (
-  <div>
     <div>
-      <div className={'section-header'}>
-        <h3 class={'text-center md:text-left'}>Highlights</h3>
+      <div className={'project-section-header'}>
+        <h3 class={'text-center lg:text-left'}>Highlights</h3>
       </div>
-      <ul class={'list-disc mt-4'}>
+      <ul class={'list-disc mt-4 flex flex-col items-center lg:block'}>
         {highlights.map((item, index) => (
-          <li key={index}>{item}</li>
+          <li key={index} class={'max-w-prose'}>{item}</li>
         ))}
       </ul>
     </div>
-  </div>
 )
 
 export default Highlights;
