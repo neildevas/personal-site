@@ -35,8 +35,7 @@ const Experiences = () => {
           <h2>Work History & Experiences</h2>
           <p className={'subheading'}>via this cool timeline thing</p>
         </div>
-        <Spacer isSectionSpacer={false} size={12} />
-        <div className="w-full mx-auto flex flex-col items-center">
+        <div className="w-full mx-auto flex flex-col items-center mt-12">
           <Experience {...item} url={item.image?.publicURL} pinUrl={data.locationPin.publicURL}/>
           <div className={'mt-12'}>
             {new Array(numExperiences).fill(null).map((it, idx) => (
