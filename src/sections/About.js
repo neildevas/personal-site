@@ -28,14 +28,16 @@ const About = () => {
             Currently, I work as a software engineer at Zillow Group. Most of my free time is spent trying to figure out how to start a business.
           </p>
         </div>
-        <div className={'mt-8 md:mt-0 max-w-full max-h-96 '} style={{ maxWidth: '50vh'}}>
-          <Img
-            fluid={data.image.childImageSharp.fluid}
-            objectFit={'contain'}
-            style={{ maxHeight: "100%"}}
-            alt="hero-image"
-          />
-        </div>
+        {/*<div>*/}
+          <div className={'mt-8 md:mt-0'} style={{ maxWidth: '50vh', maxHeight: 500}}>
+            <Img
+              fluid={data.image.childImageSharp.fluid}
+              objectFit={'contain'}
+              style={{ maxHeight: "100%"}}
+              alt="hero-image"
+            />
+          </div>
+        {/*</div>*/}
       </div>
     </div>
   )
