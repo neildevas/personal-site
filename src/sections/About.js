@@ -9,7 +9,7 @@ const About = () => {
           image: file(relativePath:{eq:"about-me-image.JPEG"}) {
               id
               childImageSharp {
-                  fluid(maxHeight:500, quality:100) {
+                  fluid(maxHeight:700, quality:100) {
                       ...GatsbyImageSharpFluid
                   }
                   fixed(height:500) {
@@ -28,12 +28,11 @@ const About = () => {
             Currently, I work as a software engineer at Zillow Group. Most of my free time is spent trying to figure out how to start a business.
           </p>
         </div>
-        <div className={'mt-8 md:mt-0 max-w-full max-h-96'} style={{ maxWidth: '50vw' }}>
+        <div className={'mt-8 md:mt-0 max-w-full max-h-96 '} style={{ maxWidth: '50vh'}}>
           <Img
             fluid={data.image.childImageSharp.fluid}
             objectFit={'contain'}
             style={{ maxHeight: "100%"}}
-            // objectPosition="50% 50%"
             alt="hero-image"
           />
         </div>
