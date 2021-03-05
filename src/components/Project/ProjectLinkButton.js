@@ -1,7 +1,7 @@
 import React from "react"
 import githubIcon from '../../images/logos/social/github-white.svg';
 import appStoreButton from '../../images/app-store-button.svg';
-import googlePlayButton from '../../images/google-play-button.svg';
+import googlePlayButton from '../../images/google-2.svg';
 
 const ProjectLinkButton = ({ link }) => (
   <a href={link} target='_blank' class={'w-32 github-button rounded-lg h-10 flex items-center justify-center mr-4'}>
@@ -29,8 +29,8 @@ export const WebsiteButton = ({ link, color }) => (
 )
 
 export const GooglePlayButton = ({ link }) => (
-  <a href={link} target='_blank' className={'project-link-button w-auto'} style={{ padding: 0, marginLeft: -8 }} type={'button'}>
-    <img src={googlePlayButton} />
+  <a href={link} target='_blank' className={'project-link-button bg-transparent px-0'} style={{ border: 'none' }}>
+    <img src={googlePlayButton} style={{ width: '100%', height: "100%", objectFit: 'contain' }} />
   </a>
 )
 

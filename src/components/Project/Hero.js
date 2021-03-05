@@ -55,7 +55,7 @@ const ProjectHero = ({ title,
           <div className={'lg:pt-8'}>
             <h1 class={'text-center lg:text-left'}>{title}</h1>
             <p className={'mt-4 text-center lg:text-left'}>{description}</p>
-            <div class={'flex flex-row mt-6 justify-center lg:justify-start flex-wrap'}>
+            <div class={'flex flex-row mt-4 justify-center lg:justify-start flex-wrap'}>
               {buttonLinks.map(({ type, link }) => {
                 if (!link) return null;
                 return renderButton({ type, link })
