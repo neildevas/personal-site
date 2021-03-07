@@ -66,4 +66,10 @@
     .project-link-button {
         @apply px-2 rounded-lg h-10 flex items-center justify-center mr-3 shadow-lg mt-4
     }
+
+    .card-background-gradient {
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, #00000088 30%, #ffffff44 100%);
+    }
 }

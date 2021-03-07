@@ -61,6 +61,7 @@
     ],
     "heroImage": "../images/hero-image-largest.png",
     "heroImageIsFluid": false,
-    "shouldGrayscaleImage": true
+    "shouldGrayscaleImage": true,
+    "cardBackgroundImage": "../images/vietnam-image.png"
   }
 ]
