@@ -33,7 +33,6 @@ const Experiences = () => {
       <div className={'full-width-section'}>
         <div className={'section-header'}>
           <h2>Work History & Experiences</h2>
-          <p className={'subheading'}>via this cool timeline thing</p>
         </div>
         <div className="w-full mx-auto flex flex-col items-center mt-12">
           <Experience {...item} url={item.image?.publicURL} pinUrl={data.locationPin.publicURL}/>
