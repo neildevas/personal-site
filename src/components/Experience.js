@@ -6,7 +6,7 @@ const Experience = ({ eventName, company, location, date, summary, tech_stack, r
       <h3 className={'heading-4 text-left'}>{company}</h3>
       <div className={'flex flex-row mt-0.5'}>
         <p className={'text-md'}>{eventName}</p>
-        <p className={'mx-2'}> / </p>
+        {location ? <p className={'mx-2'}> / </p> : null}
         <p>{location}</p>
       </div>
       <p>{date}</p>

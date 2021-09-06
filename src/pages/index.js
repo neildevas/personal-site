@@ -18,9 +18,9 @@ const IndexPage = () => {
       <About/>
       <Spacer size={32} />
       <Experiences/>
-      <Spacer size={32} />
+      <Spacer size={16} />
       <Projects/>
-      <Spacer size={32} />
+      <Spacer size={16} />
       <Social />
     </Layout>
   )

@@ -4,19 +4,23 @@ import Spacer from "../components/Spacer"
 import { graphql, useStaticQuery } from "gatsby"
 import { Link } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
+import Experience from "../components/Experience"
 
 const Employment = () => {
   const data = useStaticQuery(graphql`
       query {
-          allProjectsJson {
-              edges {
-                  node {
+          projects: allProjectsJson {
+                  nodes {
                       id
                       title
                       textColor
                       backgroundColor
-                      shouldConstrainLogo
                       slug
+                      eventName
+                      summary
+                      tech_stack
+                      responsibilities
+                      date
                       image {
                           publicURL
                       }
@@ -28,22 +32,34 @@ const Employment = () => {
                           }
                       }
                   }
-              }
           }
       }
   `);
+  console.log(data.projects.nodes);
   return (
     <div>
       <div className={'full-width-section'}>
         <div className={'section-header'}>
-          <h2 class={'pb-12'}>Projects</h2>
+          <h2>Projects</h2>
         </div>
-        <div class={'max-w-4xl mx-auto'}>
-          <div className={'grid grid-cols-1 gap-3 sm:grid-cols-3 md:gap-5'}>
-            {data.allProjectsJson.edges.map(({ node }) => (
-              <ProjectCard {...node} key={node.id} logoUrl={node.image?.publicURL}/>
-            ))}
-          </div>
+        <div className="w-full mx-auto flex flex-col mt-8">
+          {data.projects.nodes.map((project, index) => (
+            <div key={project.id} className={index !== 0 ? 'mt-8' : null}>
+              <Experience
+                eventName={project.eventName}
+                company={project.title}
+                date={project.date}
+                summary={project.summary}
+                tech_stack={project.tech_stack}
+                responsibilities={project.responsibilities}
+              />
+            </div>
+          ))}
+          {/*<div className={'grid grid-cols-1 gap-3 sm:grid-cols-3 md:gap-5'}>*/}
+          {/*  /!*{data.allProjectsJson.edges.map(({ node }) => (*!/*/}
+          {/*  /!*  <ProjectCard {...node} key={node.id} logoUrl={node.image?.publicURL}/>*!/*/}
+          {/*  /!*))}*!/*/}
+          {/*</div>*/}
         </div>
 
       </div>

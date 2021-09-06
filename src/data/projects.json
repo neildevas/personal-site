@@ -1,6 +1,11 @@
 [
   {
     "title": "Pass the AUX",
+    "eventName": "Sole backend engineer",
+    "date": "September 2018 - August 2020",
+    "summary": "Pass the AUX is a social music controller for iOS where multiple people can play music to a shared \"room\".",
+    "tech_stack": "JavaScript, NodeJS, MongoDB, Spotify Web API, ExpressJS, socket.io, Heroku, ESLint, Apple Push Notification System",
+    "responsibilities": "I served as the sole backend developer for this project and worked to create a NodeJS server that allowed users to play music to a shared \"room\". The server also communicated with Spotify's Player API to synchronize playback between users' devices. Original implementation used socket.io, which was later scrapped.",
     "backgroundColor": "black",
     "textColor": "white",
     "image": "../images/logos/pass-the-aux.svg",
@@ -21,30 +26,13 @@
     "heroImageIsFluid": false,
     "shouldGrayscaleImage": true
   }, {
-    "title": "Keyo Apartments",
-    "backgroundColor": "#007AFF",
-    "textColor": "white",
-    "image": "../images/logos/keyo-white.svg",
-    "slug": "keyo-apartments",
-    "url": "keyo.com",
-    "shouldConstrainLogo": true,
-    "websiteLink": "https://keyo.com",
-    "appStoreLink": "https://apps.apple.com/us/app/keyo-apartments/id1247679352",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=com.keyoapartmentapp&hl=en&gl=US",
-    "buttonColor": "#007AFF",
-    "highlights": [
-      "Developed 4.8 star rated React Native app for iOS and Android",
-      "Developed multiple React apps serving a variety of stakeholders in the real estate industry",
-      "Devops work with AWS, Bitrise, AppCenter, CloudFlare"
-    ],
-    "tools": ["JavaScript","React", "React Native", "NodeJS", "PostgreSQL", "Express", "AWS", "Mapbox"],
-    "heroImage": "../images/project-images/keyo-desktop.png",
-    "heroImageIsFluid": false,
-    "shouldGrayscaleImage": true
-
-}, {
     "title": "neildevas.com",
     "backgroundColor": "#004276",
+    "eventName": "Sole developer",
+    "date": "Feb 2021 - March 2021",
+    "summary": "neildevas.com is a website I built for myself to showcase past experiences and work history.",
+    "tech_stack": "React, GatsbyJS, GraphQL, Netlify, Adobe XD, Adobe Photoshop",
+    "responsibilities": "Learned UI/UX design and Adobe Photoshop from an online class and created this website. Built with GatsbyJS. ",
     "textColor": "white",
     "slug": "personal-site",
     "image": null,
