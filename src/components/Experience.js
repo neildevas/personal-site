@@ -1,18 +1,29 @@
 import React from 'react'
 
-const Experience = ({ eventName, company, location, date, url, pinUrl }) => {
+const Experience = ({ eventName, company, location, date, summary, tech_stack, responsibilities }) => {
   return (
-    <div class={'flex flex-col items-center'}>
-      {Boolean(url) && <img src={url} style={{ objectFit: 'contain', width: 200, height: 40 }} />}
-      <h3 className={'heading-3 mt-8'}>{eventName}</h3>
-      <p className={'text-xl mt-2'}>{company}</p>
-      <div class={'flex flex-row justify-center'}>
-        <img src={pinUrl} alt={'pin'} style={{ marginRight: 8 }} />
-        <p className={'mt-0.5'}>{location}</p>
+    <div className={'flex flex-col'}>
+      <h3 className={'heading-4 text-left'}>{company}</h3>
+      <div className={'flex flex-row mt-0.5'}>
+        <p className={'text-md'}>{eventName}</p>
+        <p className={'mx-2'}> / </p>
+        <p>{location}</p>
       </div>
-      <p className={'mt-0.5'}>{date}</p>
+      <p>{date}</p>
+      <p className={'max-w-2xl mt-4 text-sm'}>{summary}</p>
+      <div className={'mt-4 max-w-2xl'}>
+        <BoldHeadingWithText heading={'Responsibilities'} text={responsibilities} />
+        <div className={'mt-4'} />
+        <BoldHeadingWithText heading={'Tech Stack'} text={tech_stack} />
+      </div>
     </div>
   )
 }
+
+const BoldHeadingWithText = ({ heading, text }) => (
+  <div className={'flex flex-row'}>
+    <p className={'text-sm'}><span className={'font-bold'}>{heading}: </span>{text}</p>
+  </div>
+)
 
 export default Experience

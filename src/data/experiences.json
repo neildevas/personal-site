@@ -1,37 +1,45 @@
 [{
-  "eventName": "Born",
-  "company": "Self Explanatory",
-  "location": "New York, NY",
-  "date": "March 1997",
-  "image": null
-}, {
-  "eventName": "BSc. Computer Science",
-  "company": "McGill University",
-  "location": "Montreal, QC",
-  "date": "August 2015 - May 2019",
-  "image": "../images/logos/mcgill.svg"
-}, {
   "eventName": "Software Engineering Intern",
   "company": "Keyo",
   "location": "Palo Alto, CA",
   "date": "May 2017 - August 2017",
-  "image": "../images/logos/keyo-blue.svg"
+  "image": "../images/logos/keyo-blue.svg",
+  "summary": "Keyo is a real-estate startup focused on the NYC rental market. It helps save landlords money by filling apartment vacancies faster than a traditional brokerage.",
+  "responsibilities": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "tech_stack": "React Native, React, Redux, ESLint",
+  "links": "",
+  "rank": 3
 }, {
   "eventName": "Software Engineering Intern",
   "company": "Keyo",
   "location": "Palo Alto, CA",
   "date": "May 2018 - August 2018",
-  "image": "../images/logos/keyo-blue.svg"
+  "image": "../images/logos/keyo-blue.svg",
+  "summary": "Keyo is a real-estate startup focused on the NYC rental market. It helps save landlords money by filling apartment vacancies faster than a traditional brokerage.",
+  "tech_stack": "React Native, React, Redux, NodeJS, ESLint, PostgreSQL",
+  "responsibilities": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "links": "",
+  "rank": 2
 }, {
   "eventName": "Software Engineer",
   "company": "Keyo",
   "location": "Palo Alto, CA",
   "date": "August 2019 - Oct 2020",
-  "image": "../images/logos/keyo-blue.svg"
+  "image": "../images/logos/keyo-blue.svg",
+  "summary": "Keyo is a real-estate startup focused on the NYC rental market. It helps save landlords money by filling apartment vacancies faster than a traditional brokerage.",
+  "tech_stack": "React Native, React, Redux, NodeJS, ESLint, TypeScript, PostgreSQL, PostGIS, AWS (S3, Cloudfront, EC2, Route53), CircleCI, Bitrise, AppCenter CodePush, Mapbox",
+  "responsibilities": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "links": "",
+  "rank": 1
 }, {
   "eventName": "Software Development Engineer",
-  "company": "Zillow Group",
-  "location": "Remote",
+  "company": "Zillow Group Inc - StreetEasy",
+  "location": "New York, NY",
   "date": "Oct 2020 - Present",
-  "image": "../images/logos/zillow.svg"
+  "image": "../images/logos/zillow.svg",
+  "summary": "Zillow Group is an online real-estate company who's mission is to provide a simpler way to buy, sell, and rent a new home. It owns and operates a portfolio of real-estate brand such as StreetEasy, Trulia, and OutEast.  ",
+  "tech_stack": "React Native, React, Redux, NodeJS, ESLint, TypeScript, PostgreSQL, Docker",
+  "responsibilities": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+  "links": "",
+  "rank": 0
 }]
