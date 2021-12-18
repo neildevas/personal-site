@@ -1,5 +1,4 @@
-import React, { useState } from "react"
-import Spacer from "../components/Spacer"
+import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Experience from "../components/Experience"
 
@@ -13,47 +12,37 @@ const Experiences = () => {
                   company
                   eventName
                   date
-                  image {
-                      publicURL
-                  }
+                  summary
+                  tech_stack
+                  responsibilities
+                  rank
+                  highlights
               }
-          }
-          locationPin: file(relativePath: {eq: "location-pin.svg"}) {
-              id
-              publicURL
           }
       }
   `);
   const numExperiences = data.experiences?.nodes?.length;
-  const [selectedExperienceIndex, setSelectedExperienceIndex] = useState(0);
   if (!numExperiences) return null;
-  const item = data.experiences.nodes[selectedExperienceIndex]
   return (
     <div>
       <div className={'full-width-section'}>
         <div className={'section-header'}>
-          <h2>Work History & Experiences</h2>
-          <p className={'subheading'}>via this cool timeline thing</p>
+          <h2>Experience</h2>
         </div>
-        <div className="w-full mx-auto flex flex-col items-center mt-12">
-          <Experience {...item} url={item.image?.publicURL} pinUrl={data.locationPin.publicURL}/>
-          <div className={'mt-12'}>
-            {new Array(numExperiences).fill(null).map((it, idx) => (
-              <CircleButton
-                key={`circle-${idx}`}
-                isFilled={idx === selectedExperienceIndex}
-                onClick={() => { setSelectedExperienceIndex(idx) }}
+        <div className="w-full mx-auto flex flex-col mt-8">
+          {data.experiences.nodes.sort((a, b) => a.rank - b.rank).map((experience, index) => (
+            <div key={experience.id} className={index !== 0 ? 'mt-8' : null}>
+              <Experience
+                key={experience.id}
+                {...experience}
               />
-            ))}
-          </div>
+            </div>
+
+          ))}
         </div>
       </div>
     </div>
   )
 }
-
-const CircleButton = ({ isFilled, onClick }) => (
-  <button class={'experience-dot focus:ring-dark-blue focus:ring-opacity-50 focus:outline-none focus:ring focus:ring-offset-1'} style={{ backgroundColor: isFilled ? '#004276' : undefined }} onClick={onClick} />
-)
 
 export default Experiences;

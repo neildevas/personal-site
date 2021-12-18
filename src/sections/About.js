@@ -24,20 +24,22 @@ const About = () => {
       <div className={'grid md:grid-cols-2'}>
         <div className={'section-header'}>
           <h2>Who am I</h2>
-          <p className={'subheading'}>My name is Neil. I grew up on Long Island, New York, and graduated from McGill University with a degree in Computer Science in 2019.
-            Currently, I work as a software engineer at Zillow Group. Most of my free time is spent trying to figure out how to start a business.
+          <p className={'subheading'}>
+            I am a software engineer with over two years of experience working in real-estate technology.
+            My experiences working both at a fast-paced startup and at a large company have helped shape the way I write and deliver software.
+            I understand how to balance between the needs of shipping code fast and maintaining quality, readability, and scalability. I genuinely love writing code and firmly believe in its ability to solve problems and move our society forward. My ultimate goal is to be an entrepreneur and create products that help people in any sort of capacity.
+            <br /><br />
+            Outside of work, I love to read, travel, hang out in cafés, and do anything physical, including weight-lifting, running, playing Spikeball, and learning Brazilian Jiu-Jitsu.
           </p>
         </div>
-        {/*<div>*/}
-          <div className={'mt-8 md:mt-0 max-w-none md:max-w-half-screen md:pl-12'} style={{ height: '100%', maxHeight: 500 }}>
-            <Img
-              fluid={data.image.childImageSharp.fluid}
-              objectFit={'contain'}
-              style={{ maxHeight: "100%"}}
-              alt="hero-image"
-            />
-          </div>
-        {/*</div>*/}
+        <div className={'mt-8 md:mt-0 max-w-none md:max-w-half-screen md:pl-12'} style={{ height: '100%', maxHeight: 500 }}>
+          <Img
+            fluid={data.image.childImageSharp.fluid}
+            objectFit={'contain'}
+            style={{ maxHeight: "100%"}}
+            alt="hero-image"
+          />
+        </div>
       </div>
     </div>
   )

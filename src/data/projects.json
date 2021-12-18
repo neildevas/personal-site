@@ -1,6 +1,11 @@
 [
   {
     "title": "Pass the AUX",
+    "eventName": "Sole backend engineer",
+    "date": "September 2018 - August 2020",
+    "summary": "Pass the AUX is a social music controller app for iOS where multiple people can play music to a shared \"room\".",
+    "tech_stack": "Javascript, NodeJS, MongoDB, Spotify Web API, socket.io",
+    "responsibilities": "I served as the sole backend developer for this project, working with my friend Evan who developed the frontend in Swift. I created a NodeJS server that allowed users to play music to a shared \"room\". The server also communicated with Spotify's Player API to synchronize playback between users' devices. I gained experience using socket.io which was used in my first implementation, but then was later scrapped.",
     "backgroundColor": "black",
     "textColor": "white",
     "image": "../images/logos/pass-the-aux.svg",
@@ -10,41 +15,23 @@
     "websiteLink": "https://www.passtheauxapp.com/",
     "appStoreLink": "https://apps.apple.com/us/app/pass-the-aux/id1451423149",
     "highlights": [
-      "Express server with REST API, MongoDB database built on top of a NodeJS backend",
-      "Experimented implementation with socket.io for real time updates to queue",
-      "Push notifications with Apple and Firebase",
-      "Built on top of Spotify API"
+      "Built an Express.js server with REST API and MongoDB database",
+      "Experimented implementation with socket.io for real time updates to client application",
+      "Implemented push notifications with Apple's APNS and Google Firebase"
     ],
     "buttonColor": "#fb8c00",
-    "tools": ["JavaScript", "NodeJS", "MongoDB", "Spotify Web API", "Express", "socket.io", "Heroku"],
+    "tools": ["Javascript", "NodeJS", "MongoDB", "Spotify Web API", "Express", "socket.io", "Heroku"],
     "heroImage": "../images/project-images/pass-the-aux.jpeg",
     "heroImageIsFluid": false,
     "shouldGrayscaleImage": true
   }, {
-    "title": "Keyo Apartments",
-    "backgroundColor": "#007AFF",
-    "textColor": "white",
-    "image": "../images/logos/keyo-white.svg",
-    "slug": "keyo-apartments",
-    "url": "keyo.com",
-    "shouldConstrainLogo": true,
-    "websiteLink": "https://keyo.com",
-    "appStoreLink": "https://apps.apple.com/us/app/keyo-apartments/id1247679352",
-    "playStoreLink": "https://play.google.com/store/apps/details?id=com.keyoapartmentapp&hl=en&gl=US",
-    "buttonColor": "#007AFF",
-    "highlights": [
-      "Developed 4.8 star rated React Native app for iOS and Android",
-      "Developed multiple React apps serving a variety of stakeholders in the real estate industry",
-      "Devops work with AWS, Bitrise, AppCenter, CloudFlare"
-    ],
-    "tools": ["JavaScript","React", "React Native", "NodeJS", "PostgreSQL", "Express", "AWS", "Mapbox"],
-    "heroImage": "../images/project-images/keyo-desktop.png",
-    "heroImageIsFluid": false,
-    "shouldGrayscaleImage": true
-
-}, {
     "title": "neildevas.com",
     "backgroundColor": "#004276",
+    "eventName": "Sole developer",
+    "date": "Feb 2021 - March 2021",
+    "summary": "neildevas.com is a portfolio website I built for myself to showcase past experiences and work history.",
+    "tech_stack": "React, GatsbyJS, Adobe XD, Adobe Photoshop, TailwindCSS",
+    "responsibilities": "Learned UI/UX design and Adobe Photoshop from a Udemy course and learned GatsbyJS framework to create a personal website.",
     "textColor": "white",
     "slug": "personal-site",
     "image": null,
@@ -56,8 +43,8 @@
     "githubLink": "https://github.com/neildevas/personal-site",
     "tools": ["JavaScript", "React", "Gatsby", "Adobe XD", "GraphQL", "Adobe Photoshop"],
     "highlights": [
-      "Learned UI/UX design with Adobe XD, designed website from scratch",
-      "Created site with GatsbyJS"
+      "Self-taught UI/UX design with Adobe XD and designed website from scratch",
+      "Learned GatsbyJS framework and TailwindCSS"
     ],
     "heroImage": "../images/hero-image-largest.png",
     "heroImageIsFluid": false,

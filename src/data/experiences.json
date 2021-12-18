@@ -1,37 +1,50 @@
 [{
-  "eventName": "Born",
-  "company": "Self Explanatory",
-  "location": "New York, NY",
-  "date": "March 1997",
-  "image": null
-}, {
-  "eventName": "BSc. Computer Science",
-  "company": "McGill University",
-  "location": "Montreal, QC",
-  "date": "August 2015 - May 2019",
-  "image": "../images/logos/mcgill.svg"
-}, {
   "eventName": "Software Engineering Intern",
   "company": "Keyo",
   "location": "Palo Alto, CA",
   "date": "May 2017 - August 2017",
-  "image": "../images/logos/keyo-blue.svg"
+  "image": "../images/logos/keyo-blue.svg",
+  "responsibilities": "During this internship I mainly worked on developing the frontend in React Native for Keyo's mobile app which had not yet been released to the public.",
+  "tech_stack": "React Native, React + libraries",
+  "links": "",
+  "rank": 3,
+  "highlights": ["Did extensive frontend work for React Native app", "Self-taught Javascript and React Native"]
 }, {
   "eventName": "Software Engineering Intern",
   "company": "Keyo",
   "location": "Palo Alto, CA",
   "date": "May 2018 - August 2018",
-  "image": "../images/logos/keyo-blue.svg"
+  "image": "../images/logos/keyo-blue.svg",
+  "tech_stack": "React Native, React + libraries, NodeJS, PostgreSQL",
+  "responsibilities": "During this internship I worked on a few full-stack features for Keyo's mobile app. Being new to full-stack development, much of my time was spent learning how to implement RESTful APIs, use ORMs (Sequelize in this case), and use Redux in the frontend.",
+  "links": "",
+  "rank": 2,
+  "highlights": ["Implemented a full-stack feature intended to make paying rent easier for tenants by improving the front-end design.", "Self-taught RESTful API development, Express.js, Sequelize ORM, and Redux"]
 }, {
   "eventName": "Software Engineer",
   "company": "Keyo",
   "location": "Palo Alto, CA",
   "date": "August 2019 - Oct 2020",
-  "image": "../images/logos/keyo-blue.svg"
+  "image": "../images/logos/keyo-blue.svg",
+  "summary": "Keyo is a real-estate startup focused on the NYC rental market. It helps save landlords money by filling apartment vacancies faster than a traditional brokerage. Keyo was acquired by Zillow in October 2020.",
+  "tech_stack": "React Native, React + libraries, NodeJS, TypeScript, PostgreSQL, AWS (S3, Cloudfront, EC2, Route53), various CI tools",
+  "responsibilities": "Part of a five-person team that developed two mobile apps and two web apps for several stakeholders in the real-estate industry. This being a small team and working in a fast-paced startup environment, I wore multiple hats that involved day-to-day feature development and bug fixes, setup and maintenance of CI/CD pipelines on various platforms, and setup and maintenance of our technical infrastructure, such as servers, databases, cloud storage, and networking infrastructure, on platforms like AWS and Cloudflare.",
+  "links": "",
+  "rank": 1,
+  "highlights": ["Built a custom video-chat feature in Keyo's mobile app and consumer-facing website using Twilio to facilitate virtual tours in response to COVID-19.", "Developed multiple features for map-based searching on keyo.com, including ability to search for rentals near NYC transit lines. This involved scouring the internet for open-source NYC transit data and creating scripts with Python to format the data suitably for our use case.", "Migrated entire DNS configuration from Cloudflare to AWS Route 53 with zero downtime"]
 }, {
   "eventName": "Software Development Engineer",
-  "company": "Zillow Group",
-  "location": "Remote",
+  "company": "Zillow Group Inc - StreetEasy",
+  "location": "New York, NY",
   "date": "Oct 2020 - Present",
-  "image": "../images/logos/zillow.svg"
+  "image": "../images/logos/zillow.svg",
+  "summary": "Zillow Group is an online real-estate company who's mission is to provide a simpler way to buy, sell, and rent a new home. It owns and operates a portfolio of real-estate brand such as StreetEasy, Trulia, and OutEast. ",
+  "tech_stack": "React Native, React + libraries (ESLint, Redux, etc.), Ruby on Rails, NodeJS, TypeScript, PostgreSQL, MySQL, Docker, various CI tools",
+  "responsibilities": "Part of a team responsible for introducing an on-demand touring feature on StreetEasy, and a related mobile application for real estate agents and web app for StreetEasy's customer service team. The mobile app and web app were originally developed at Keyo (see below) and then integrated into StreetEasy's tech stack following the acquisition of Keyo in October 2020. Also have contributed various full-stack features to streeteasy.com.",
+  "links": "",
+  "rank": 0,
+  "highlights": [
+    "Lead a two month project across multiple teams to implement Pact.io, an contract testing framework used to test interactions between disparate communicating systems. The goal of the project was to implement contract testing between streeteasy.com and Keyo's existing backend server. Since completion, I have given multiple talks across the organization to evangelize the use of Pact.io.",
+    "Migrated our mobile app's CI/CD pipeline from Bitrise.io to GitLab CI, resulting in a 3x speedup in build time. "
+  ]
 }]

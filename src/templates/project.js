@@ -15,7 +15,6 @@ export const query = graphql`
             description
             websiteLink
             appStoreLink
-            playStoreLink
             githubLink
             highlights
             tools
