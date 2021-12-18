@@ -52,14 +52,10 @@ const Employment = () => {
                 summary={project.summary}
                 tech_stack={project.tech_stack}
                 responsibilities={project.responsibilities}
+                highlights={[]}
               />
             </div>
           ))}
-          {/*<div className={'grid grid-cols-1 gap-3 sm:grid-cols-3 md:gap-5'}>*/}
-          {/*  /!*{data.allProjectsJson.edges.map(({ node }) => (*!/*/}
-          {/*  /!*  <ProjectCard {...node} key={node.id} logoUrl={node.image?.publicURL}/>*!/*/}
-          {/*  /!*))}*!/*/}
-          {/*</div>*/}
         </div>
 
       </div>

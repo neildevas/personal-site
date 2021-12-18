@@ -16,6 +16,7 @@ const Experiences = () => {
                   tech_stack
                   responsibilities
                   rank
+                  highlights
               }
           }
       }
@@ -26,7 +27,7 @@ const Experiences = () => {
     <div>
       <div className={'full-width-section'}>
         <div className={'section-header'}>
-          <h2>Experiences</h2>
+          <h2>Experience</h2>
         </div>
         <div className="w-full mx-auto flex flex-col mt-8">
           {data.experiences.nodes.sort((a, b) => a.rank - b.rank).map((experience, index) => (

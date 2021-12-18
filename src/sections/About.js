@@ -25,11 +25,11 @@ const About = () => {
         <div className={'section-header'}>
           <h2>Who am I</h2>
           <p className={'subheading'}>
-            I am a software engineer with two years of experience working in the real-estate industry.
+            I am a software engineer with two years of experience working in the real-estate technology.
             My experience working both at a fast-paced startup and at a large company have helped shape the way I write and deliver software.
-            I understand the need to ship code fast while maintaining high quality and scalability.
-            Among my results I could refer to the three mobile apps and two web apps developed at Keyo, two of which were acquired by Zillow in October 2020,
-            or the project I lead to implement an integration testing framework currently used in production for streeteasy.com.
+            I understand how to balance between the needs of shipping code fast and maintaining quality, readability, and scalability. I genuinely love writing code and firmly believe in its ability to solve problems and move our society forward. My ultimate goal is to be an entrepreneur and create products that help people in any sort of capacity.
+            <br /><br />
+            Outside of work, I love to read, travel, hang out in cafés, and do anything physical, including weight-lifting, running, and learning Brazilian Jiu-Jitsu.
           </p>
         </div>
         <div className={'mt-8 md:mt-0 max-w-none md:max-w-half-screen md:pl-12'} style={{ height: '100%', maxHeight: 500 }}>
