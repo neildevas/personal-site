@@ -1,6 +1,4 @@
 import React from 'react';
-import Img from "gatsby-image"
-import Spacer from "../components/Spacer"
 import { graphql, useStaticQuery } from "gatsby"
 import { Link } from "gatsby"
 import BackgroundImage from 'gatsby-background-image'
@@ -36,7 +34,7 @@ const Employment = () => {
           }
       }
   `);
-  console.log(data.projects.nodes);
+
   return (
     <div>
       <div className={'full-width-section'}>

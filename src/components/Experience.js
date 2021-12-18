@@ -2,7 +2,6 @@ import React from 'react'
 
 const Spacer = () => <div className={'mt-4'} />
 const Experience = ({ eventName, company, location, date, summary, tech_stack, responsibilities, highlights }) => {
-  console.log('HIGHLIGHTS', highlights);
   return (
     <div className={'flex flex-col'}>
       <h3 className={'heading-4 text-left'}>{company}</h3>
