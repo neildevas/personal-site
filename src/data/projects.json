@@ -3,9 +3,9 @@
     "title": "Pass the AUX",
     "eventName": "Sole backend engineer",
     "date": "September 2018 - August 2020",
-    "summary": "Pass the AUX is a social music controller for iOS where multiple people can play music to a shared \"room\".",
+    "summary": "Pass the AUX is a social music controller app for iOS where multiple people can play music to a shared \"room\".",
     "tech_stack": "Javascript, NodeJS, MongoDB, Spotify Web API, socket.io",
-    "responsibilities": "I served as the sole backend developer for this project and worked to create a NodeJS server that allowed users to play music to a shared \"room\". The server also communicated with Spotify's Player API to synchronize playback between users' devices. Original implementation used socket.io, which was later scrapped.",
+    "responsibilities": "I served as the sole backend developer for this project, working with my friend Evan who developed the frontend in Swift. I created a NodeJS server that allowed users to play music to a shared \"room\". The server also communicated with Spotify's Player API to synchronize playback between users' devices. I gained experience using socket.io which was used in my first implementation, but then was later scrapped.",
     "backgroundColor": "black",
     "textColor": "white",
     "image": "../images/logos/pass-the-aux.svg",
@@ -15,10 +15,9 @@
     "websiteLink": "https://www.passtheauxapp.com/",
     "appStoreLink": "https://apps.apple.com/us/app/pass-the-aux/id1451423149",
     "highlights": [
-      "Express server with REST API, MongoDB database built on top of a NodeJS backend",
-      "Experimented implementation with socket.io for real time updates to queue",
-      "Push notifications with Apple and Firebase",
-      "Built on top of Spotify API"
+      "Built an Express.js server with REST API and MongoDB database",
+      "Experimented implementation with socket.io for real time updates to client application",
+      "Implemented push notifications with Apple's APNS and Google Firebase"
     ],
     "buttonColor": "#fb8c00",
     "tools": ["Javascript", "NodeJS", "MongoDB", "Spotify Web API", "Express", "socket.io", "Heroku"],
@@ -30,9 +29,9 @@
     "backgroundColor": "#004276",
     "eventName": "Sole developer",
     "date": "Feb 2021 - March 2021",
-    "summary": "neildevas.com is a website I built for myself to showcase past experiences and work history.",
-    "tech_stack": "React, GatsbyJS, Adobe XD, Adobe Photoshop",
-    "responsibilities": "Learned UI/UX design and Adobe Photoshop from an online class and created this website. Built with GatsbyJS. ",
+    "summary": "neildevas.com is a portfolio website I built for myself to showcase past experiences and work history.",
+    "tech_stack": "React, GatsbyJS, Adobe XD, Adobe Photoshop, TailwindCSS",
+    "responsibilities": "Learned UI/UX design and Adobe Photoshop from a Udemy course and learned GatsbyJS framework to create a personal website.",
     "textColor": "white",
     "slug": "personal-site",
     "image": null,
@@ -44,8 +43,8 @@
     "githubLink": "https://github.com/neildevas/personal-site",
     "tools": ["JavaScript", "React", "Gatsby", "Adobe XD", "GraphQL", "Adobe Photoshop"],
     "highlights": [
-      "Learned UI/UX design with Adobe XD, designed website from scratch",
-      "Created site with GatsbyJS"
+      "Self-taught UI/UX design with Adobe XD and designed website from scratch",
+      "Learned GatsbyJS framework and TailwindCSS"
     ],
     "heroImage": "../images/hero-image-largest.png",
     "heroImageIsFluid": false,

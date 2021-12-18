@@ -24,6 +24,7 @@ const Employment = () => {
                       image {
                           publicURL
                       }
+                      highlights
                       cardBackgroundImage {
                           childImageSharp {
                               fluid(quality:100) {
@@ -52,7 +53,7 @@ const Employment = () => {
                 summary={project.summary}
                 tech_stack={project.tech_stack}
                 responsibilities={project.responsibilities}
-                highlights={[]}
+                highlights={project.highlights}
               />
             </div>
           ))}

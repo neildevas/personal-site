@@ -4,11 +4,6 @@
   "icon": "../images/logos/social/github.svg",
   "link": "https://github.com/neildevas"
 }, {
-  "label": "Twitter",
-  "username": "the_real_neild",
-  "icon": "../images/logos/social/twitter.svg",
-  "link": "https://twitter.com/the_real_neild"
-}, {
   "label": "LinkedIn",
   "username": "neil-devas",
   "icon": "../images/logos/social/linked-in-alt.svg",
