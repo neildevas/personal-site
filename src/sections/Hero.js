@@ -12,6 +12,7 @@ const HeroSection = () => {
             Exerciser <Emoji emoji={'🏃'} label={'runner'} />
             Reader <Emoji emoji={'📚'} label={'books'} />
             Health Nut <Emoji emoji={'🍳'} label={'frying-pan'} />
+            Aspiring Creative <Emoji emoji={'💡'} label={'light bulb'} />
           </p>
         </div>
         <div className={'mt-8 md:mt-0 max-w-full sm:mx-0 flex justify-center relative hero-circle-container'}>
