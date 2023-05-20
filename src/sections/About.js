@@ -33,7 +33,7 @@ const About = () => {
           <div className={'section-header'}>
             <h2>About me</h2>
             <p className={'subheading'}>
-              I love to read, travel, walk around, and engage in physical activity. Currently I am a blue belt in Brazilian Jiu Jitsu at Renzo Gracie UWS Academy in New York City.
+              I love to read, travel, cook, listen to music, walk around and think, engage in physical activity, and surround myself with people I love. I currently live in New York City, and it's proving to be one of my favorite cities in the world. My favorite hobby is Brazilian Jiu Jitsu. Currently I am a blue belt at Renzo Gracie UWS Academy.
             </p>
           </div>
         </div>
