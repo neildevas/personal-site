@@ -26,7 +26,7 @@ const About = () => {
           <div className={'section-header'}>
             <h2>About my work</h2>
             <p className={'subheading'}>
-              I am a full-stack software engineer with four years of professional experience working in the real-estate and financial sectors. I am looking to join a small team in an industry that I am interested in and where I will be able to write a lot of code and be able to contribute to product decisions.
+              I am a full-stack software engineer with four years of professional experience working in the real-estate and financial sectors. I am looking to join a small team in an industry that I am interested in and where I will be able to write a lot of code and be able to contribute to product decisions. I write high-quality, clean code and can ship features quickly.
             </p>
           </div>
           <br /><br />

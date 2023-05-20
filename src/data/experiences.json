@@ -36,7 +36,7 @@
   "eventName": "Software Development Engineer",
   "company": "Zillow Group Inc - StreetEasy",
   "location": "New York, NY",
-  "date": "Oct 2020 - Present",
+  "date": "Oct 2020 - Jan 2022",
   "image": "../images/logos/zillow.svg",
   "summary": "Zillow Group is an online real-estate company who's mission is to provide a simpler way to buy, sell, and rent a new home. It owns and operates a portfolio of real-estate brand such as StreetEasy, Trulia, and OutEast. ",
   "tech_stack": "React Native, React + libraries (ESLint, Redux, etc.), Ruby on Rails, NodeJS, TypeScript, PostgreSQL, MySQL, Docker, various CI tools",
@@ -54,12 +54,12 @@
   "date": "May 2022 - Present",
   "tech_stack": "React Native, React + libraries (ESLint, Redux, etc.), NodeJS, TypeScript, MongoDB, GraphQL",
   "summary": "Titan is a modern investment manager right in the palm of your hand. Their goal is to lead the world to better wealth through by offering a suite of investment products that typically are accessible only to the ultra-wealthy ",
-  "responsibilities": "At Titan I am part of the Growth team. Originally my team's main responsibility was to develop features for user journeys that were not directly related to investing through the app. This included: creating an onboarding experience for our users, developing Titan's marketing website that informs users about the company's offerings, and developing a referral program for users in the app. Later on, my team started also working on features that were directly related to investing through the app. ",
+  "responsibilities": "Originally my team's main responsibility was to develop features for user journeys that were not directly related to investing through the app. This included: creating a cross-platform onboarding experience for our users, developing a referral program for users in the app, and developing various features that allowed users to have a taste of our offerings before actually using our app. Later on, my team started also working on features that were directly related to investing through the app. ",
   "links": "",
   "rank": 0,
   "highlights": [
-    "Co-lead project to build and launch Titan's second web app in NextJS, which gave users the ability to Titan on any browser",
-    "Lead project to update Titan's referral program to use a time-based, fee-waiver structure",
+    "Co-lead project to build and launch Titan's web app in NextJS, which gave users the ability to use Titan on the web. Previously, Titan only offered a mobile app.",
+    "Lead project to update Titan's referral program to use a time-based, fee-waive structure",
     "Co-lead project to update Titan's onboarding flow, allowing users to seamlessly onboard on both our web and mobile platforms",
     "Lead project that allowed users to receive a recommended investment portfolio before actually investing in the app"
   ]
