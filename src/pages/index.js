@@ -4,10 +4,10 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import HeroSection from "../sections/Hero"
 import Spacer from "../components/Spacer"
-import About from "../sections/About"
 import Experiences from "../sections/Experiences"
 import Projects from "../sections/Projects"
 import Social from "../sections/Social"
+import { AboutMe, AboutWork } from "../sections/About"
 
 const IndexPage = () => {
   return (
@@ -15,7 +15,9 @@ const IndexPage = () => {
       <SEO />
       <HeroSection/>
       <Spacer size={32} />
-      <About/>
+      <AboutWork />
+      <Spacer size={32} />
+      <AboutMe />
       <Spacer size={32} />
       <Experiences/>
       <Spacer size={16} />

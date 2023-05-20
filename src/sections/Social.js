@@ -1,5 +1,4 @@
 import React from 'react';
-import Spacer from "../components/Spacer"
 import { graphql, useStaticQuery } from "gatsby"
 
 const Social = () => {
@@ -25,9 +24,10 @@ const Social = () => {
     <div>
       <div className={'full-width-section'}>
         <div className={'section-header'}>
-          <h2 class={'pb-12'}>Social</h2>
+          <h2>Contact</h2>
         </div>
-        <div className={'grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 md:gap-5'}>
+        <p className={'subheading mt-4'}>The best way to reach me is by emailing me at neil.devas97@gmail.com</p>
+        <div className={'grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 md:gap-5 mt-12'}>
           {data.social.edges.map(({ node }) => (
             <SocialItem {...node} key={node.id} iconUrl={node.icon.publicURL} />
           ))}
