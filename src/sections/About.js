@@ -23,7 +23,7 @@ export const AboutMe = () => (
   <div className={'section-header'}>
     <h2>About me</h2>
     <p className={'subheading'}>
-      I love to read, travel, cook, listen to music, walk around and think, engage in physical activity, and surround myself with people I love. I'm trying to learn how to embarrass myself and have many spectacular failures, so if you know how to do that, you should hit me up. I live in New York City, and it's proving to be one of my favorite cities in the world. My favorite hobby is Brazilian Jiu Jitsu. Currently I am a blue belt at Renzo Gracie UWS Academy.
+      I love to read, travel, cook, listen to music, walk around and think, engage in physical activity, and surround myself with people I love. I'm trying to learn how to better take risks and embarrass myself, so if you know how to do that, you should hit me up. I live in New York City, and it's proving to be one of my favorite cities in the world. My favorite hobby is Brazilian Jiu Jitsu. Currently I am a blue belt at Renzo Gracie UWS Academy.
     </p>
     <br />
     <p className={'subheading mt-0'}>
