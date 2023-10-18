@@ -1,11 +1,11 @@
 [
   {
     "title": "Pass the AUX",
-    "eventName": "Sole backend engineer",
-    "date": "September 2018 - August 2020",
-    "summary": "Pass the AUX is a social music controller app for iOS where multiple people can play music to a shared \"room\".",
+    "eventName": "Co-creator / lead backend engineer",
+    "date": "Sept 2018 - Aug 2020",
+    "summary": "Pass the AUX was a social music controller app where multiple people could play music to a shared \"room\".",
     "tech_stack": "Javascript, NodeJS, MongoDB, Spotify Web API, socket.io",
-    "responsibilities": "I served as the sole backend developer for this project, working with my friend Evan who developed the frontend in Swift. I created a NodeJS server that allowed users to play music to a shared \"room\". The server also communicated with Spotify's Player API to synchronize playback between users' devices. I gained experience using socket.io which was used in my first implementation, but then was later scrapped.",
+    "responsibilities": "Co-creator and sole backend developer working alongside frontend engineer. Created a NodeJS server that allowed users to play music to a shared \"room\" using Spotify's web API. Originally implemented using socket.io but later changed to a more traditional REST API approach.",
     "backgroundColor": "black",
     "textColor": "white",
     "image": "../images/logos/pass-the-aux.svg",
@@ -15,9 +15,9 @@
     "websiteLink": "https://www.passtheauxapp.com/",
     "appStoreLink": "https://apps.apple.com/us/app/pass-the-aux/id1451423149",
     "highlights": [
-      "Built an Express.js server with REST API and MongoDB database",
+      "Built a NodeJS server using Express and MongoDB database",
       "Experimented implementation with socket.io for real time updates to client application",
-      "Implemented push notifications with Apple's APNS and Google Firebase"
+      "Implemented push notifications with Apple's APNS"
     ],
     "buttonColor": "#fb8c00",
     "tools": ["Javascript", "NodeJS", "MongoDB", "Spotify Web API", "Express", "socket.io", "Heroku"],
