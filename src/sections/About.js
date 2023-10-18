@@ -2,42 +2,34 @@ import React from 'react';
 
 export const AboutWork = () => (
   <div className={'section-header'}>
-    <h2>About my work</h2>
+    <h2>Work</h2>
     <p className={'subheading'}>
-      I am a full-stack software engineer with four years of professional experience working in the real-estate and financial sectors. I am looking to join a small team in an industry that I am interested in and where I will be able to write a lot of code and be able to contribute to product decisions.
+      By trade I am a software engineer with 4+ years of experience working in the real-estate and financial industries. I have experience working with both small and large teams to deliver on both technically-challenging and product-oriented projects. I enjoy working cross-functionally and thrive in environments where I can learn a lot, take on responsibility, and collaborate with others. I am currently looking for roles in product, operations, or strategy.
     </p>
-    <br />
-    Here are few books and essays that have influenced the way I work:
-    <ul>
-      <li>The Pragmatic Programmer by Andy Hunt and Dave Thomas</li>
-      <li>Refactoring by Martin Fowler</li>
-      <li>Clean Code by Robert Cecil Martin</li>
-      <li>The 4-Hour Work Week by Timothy Ferriss</li>
-      <li>The Effective Executive by Peter Drucker</li>
-      <li>Many essays from paulgraham.com</li>
-    </ul>
   </div>
 )
 
 export const AboutMe = () => (
   <div className={'section-header'}>
-    <h2>About me</h2>
+    <h2>About Me</h2>
     <p className={'subheading'}>
-      I love to read, travel, cook, listen to music, walk around and think, engage in physical activity, and surround myself with people I love. I'm trying to learn how to better take risks and embarrass myself, so if you know how to do that, you should hit me up. I live in New York City, and it's proving to be one of my favorite cities in the world. My favorite hobby is Brazilian Jiu Jitsu. Currently I am a blue belt at Renzo Gracie UWS Academy.
+      I am a chronic self-starter who loves to read, travel, cook, code, do Brazilian Jiu-Jitsu, explore cities, and spend time with others. I enjoy challenging myself and being creative in various ways. My ultimate goal is to be an entrepreneur and help empower people through art, science, and technology.
     </p>
-    <br />
-    <p className={'subheading mt-0'}>
-      My ultimate goal is to be an entrepreneur and help empower people through art, science, and technology. I have had many hilariously awful attempts to start a business, which you should ask me about.
+  </div>
+)
+
+export const Books = () => (
+  <div className={'section-header'}>
+    <h2>Books</h2>
+    <p className={'subheading'}>
+      Here are some books and essays that have greatly influenced me in the past few years:
     </p>
-    <br />
-    Here are few books and essays that have influenced the way I live:
     <ul>
       <li>The 4-Hour Work Week by Timothy Ferriss</li>
-      <li>Tribe of Mentors by Timothy Ferriss</li>
-      <li>The Magic of Thinking Big by David Schwartz</li>
       <li>The Hero with a Thousand Faces by Joseph Campbell</li>
-      <li>Norweigan Wood by Haruki Murakami</li>
-      <li>Many essays from paulgraham.com and markmanson.net</li>
+      <li>The Effective Executive by Peter Drucker</li>
+      <li>The Magic of Thinking Big by David Schwartz</li>
+      <li>Many essays from paulgraham.com</li>
     </ul>
   </div>
 )

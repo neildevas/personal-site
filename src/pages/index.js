@@ -7,7 +7,7 @@ import Spacer from "../components/Spacer"
 import Experiences from "../sections/Experiences"
 import Projects from "../sections/Projects"
 import Social from "../sections/Social"
-import { AboutMe, AboutWork } from "../sections/About"
+import { AboutMe, AboutWork, Books } from "../sections/About"
 
 const IndexPage = () => {
   return (
@@ -15,9 +15,11 @@ const IndexPage = () => {
       <SEO />
       <HeroSection/>
       <Spacer size={32} />
+      <AboutMe />
+      <Spacer size={32} />
       <AboutWork />
       <Spacer size={32} />
-      <AboutMe />
+      <Books />
       <Spacer size={32} />
       <Experiences/>
       <Spacer size={16} />
