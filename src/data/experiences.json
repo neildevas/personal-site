@@ -38,7 +38,7 @@
   "location": "New York, NY",
   "date": "Oct 2020 - Jan 2022",
   "image": "../images/logos/zillow.svg",
-  "summary": "Zillow Group is an online real-estate company who's mission is to provide a simpler way to buy, sell, and rent a new home. It owns and operates a portfolio of real-estate brand such as StreetEasy, Trulia, and OutEast. ",
+  "summary": "StreetEasy is New York City’s leading real estate marketplace.",
   "tech_stack": "TypeScript, React Native, React, Redux, Ruby on Rails, SQL",
   "responsibilities": "Member of team acquired by Zillow responsible for introducing an on-demand touring feature on StreetEasy, associated mobile application for real estate agents, and internal tool for StreetEasy's CX team.",
   "links": "",
