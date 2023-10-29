@@ -13,7 +13,7 @@ export const AboutMe = () => (
   <div className={'section-header'}>
     <h2>About Me</h2>
     <p className={'subheading'}>
-      I am a chronic self-starter who loves to read, travel, cook, code, do Brazilian Jiu-Jitsu, explore cities, and spend time with others. I enjoy challenging myself and being creative in various ways. My ultimate goal is to be an entrepreneur and help empower people through art, science, and technology.
+      I am a self-starter who loves to read, travel, cook, code, do Brazilian Jiu-Jitsu, explore cities, and spend time with others. I enjoy challenging myself and being creative in various ways. My ultimate goal is to be an entrepreneur and help empower people through art, science, and technology.
     </p>
   </div>
 )

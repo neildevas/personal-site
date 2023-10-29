@@ -8,7 +8,7 @@
   "tech_stack": "React Native, React + libraries",
   "links": "",
   "rank": 4,
-  "highlights": ["Did extensive frontend work for React Native app", "Self-taught Javascript and React Native"]
+  "highlights": ["Developed the frontend for Keyo’s React Native app that hadn’t yet been released to the public."]
 }, {
   "eventName": "Software Engineering Intern",
   "company": "Keyo",
@@ -19,9 +19,9 @@
   "responsibilities": "During this internship I worked on a few full-stack features for Keyo's mobile app. Being new to full-stack development, much of my time was spent learning how to implement RESTful APIs, use ORMs (Sequelize in this case), and use Redux in the frontend.",
   "links": "",
   "rank": 3,
-  "highlights": ["Implemented a full-stack feature intended to make paying rent easier for tenants by improving the front-end design.", "Self-taught RESTful API development, Express.js, Sequelize ORM, and Redux"]
+  "highlights": ["Implemented a full-stack feature in a React Native app that improved the rent payment history experience for users, displaying past, failed, incomplete, and overdue payments.", "Led a project to refactor the code using Redux for better coding practices."]
 }, {
-  "eventName": "Software Engineer",
+  "eventName": "Full Stack Engineer",
   "company": "Keyo",
   "location": "Palo Alto, CA",
   "date": "Aug 2019 - Oct 2020",
@@ -31,9 +31,14 @@
   "responsibilities": "Part of a five-person team that developed two React Native apps and two React apps for stakeholders in the real-estate industry. Day-to-day responsibilities included feature development and bug fixes, development of CI/CD pipelines, and development technical infrastructure, such as servers, databases, cloud storage, and networking infrastructure, on AWS and Cloudflare.",
   "links": "",
   "rank": 2,
-  "highlights": ["Built a custom video-chat feature using Twilio to facilitate virtual tours in response to COVID-19.", "Developed multiple features for map-based searching on keyo.com, including ability to search for rentals near NYC transit lines. This involved scouring the internet for open-source NYC transit data and creating scripts with Python to format the data suitably for our use case.", "Migrated entire DNS configuration from Cloudflare to AWS Route 53 with zero downtime"]
+  "highlights": ["Worked cross-functionally to develop app for users to schedule on-demand apartment viewings in NYC.",
+    "Worked cross-functionally to develop app for partners to list apartments on Keyo and receive live tour updates.",
+    "Worked cross-functionally to develop tool for ops team to list apartments, schedule tours, and process leases.",
+    "Developed PSQL / PostGIS feature which enabled users to search for apartment listings on an interactive map.",
+    "Developed a custom video-chat feature for virtual apartment showings which increased showings by 10% during COVID-19. Worked with CEO and tour providers to address bugs in real-time."
+  ]
 }, {
-  "eventName": "Software Development Engineer",
+  "eventName": "Full Stack Engineer",
   "company": "Zillow Group Inc - StreetEasy",
   "location": "New York, NY",
   "date": "Oct 2020 - Jan 2022",
@@ -44,9 +49,10 @@
   "links": "",
   "rank": 1,
   "highlights": [
-    "Developed React Native app for real-estate agents and React internal tool for StreetEasy's CX team",
-    "Lead project across two teams to implement Pact.io into StreetEasy's CI/CD pipeline",
-    "Migrated team's mobile apps CI/CD pipeline from Bitrise.io to GitLab CI, resulting in a 3x speedup in build time"
+    "Co-developed feature which enabled on-demand apartment viewings for 30+ StreetEasy listings.",
+    "Lead project to re-skin Keyo’s mobile app to more closely align with StreetEasy’s design system.",
+    "Lead three-person project to implement a testing library between streeteasy.com and Keyo API.",
+    "Worked with DevOps team to migrate mobile infrastructure platform, resulting in 3x build speedup time."
   ]
 }, {
   "eventName": "Software Engineer - Growth",
@@ -59,9 +65,9 @@
   "links": "",
   "rank": 0,
   "highlights": [
-    "Co-lead development of Titan’s web platform. Web signups had a 40% conversion rate vs. 36% on iOS app",
-    "Co-lead development of GQL powered form package to dynamically generate React UIs, supporting both web and native. Used in multiple cross-platform experiences including onboarding flow and 401k rollover flow",
-    "Lead development for new referral program, implementing two new reward structures for successful referrals",
-    "Lead development of feature which allowed users to receive an investing portfolio recommendation on titan.com"
+    "Co-lead development on multi-engineer project to build Titan’s web platform. Web signups had a 40% conversion rate vs. 36% on iOS.",
+    "Co-lead development of cross-platform onboarding experience, increasing conversions by 7%.",
+    "Implemented a fee-offset referral program that doubled successful referrals over a one month period.",
+    "Worked with marketing team to run experiment providing users with an investing portfolio recommendation before app sign-up, using Mode to test conversion rate compared to standard sign-up flow."
   ]
 }]

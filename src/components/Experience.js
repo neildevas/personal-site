@@ -13,8 +13,6 @@ const Experience = ({ eventName, company, location, date, summary, tech_stack, r
       <p>{date}</p>
       {summary ? <p className={'max-w-2xl mt-4 text-sm'}>{summary}</p> : null}
       <div className={'mt-4 max-w-2xl'}>
-        <BoldHeadingWithText heading={'Responsibilities'} text={responsibilities} />
-        <Spacer />
         <BoldHeadingWithListText heading={'Highlights'} text={highlights} />
         <Spacer />
         <BoldHeadingWithText heading={'Tech Stack'} text={tech_stack} />
